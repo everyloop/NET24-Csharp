@@ -21,12 +21,21 @@ Kolla i undermappen bin/Debug/net8.0 för att se de filer som du byggde.
 
 Om du istället högerklickar på din solution i Solution Explorer och väljer "Build Solution" så kommer visual studio bygga samtliga projekt (som uppdaterats sedan senaste bygg) som ingår i din solution.
 
-
-
 ### Debug / Release build
 
+Brevid den gröna "run"-knappen i Visual Studio finns en drop-down där man kan välja mellan Debug och Release. Detta är olika konfigurationer för hur projektet ska byggas, och output för dessa hamnar i två separata mappar under ditt projekts "bin"-mapp.
+
+När du bygger för "Debug" optimeras inte din kod lika väl, samt den tar med meta-data som används för att kunna debugga/felsöka koden.
+
+När du bygger för "Release" så kommer inte den meta-datan med, plus att den optimeras mer.
+
+Använd "debug" under utveckling, och "release" när du vill släppa en färdig version som ska delas med användare.
 
 ## Powershell
+
+PowerShell är ett terminalprogram från Microsoft som används för uppgiftsautomatisering och konfigurationshantering. Det bygger på .NET och exponerar även alla bibliotek och klasser från .NET så att dessa kan användas direkt i powershell.
+
+Liknande terminal/konsoll/shell finns även för andra plattformar som t.ex Linux och Apple. Även om dessa inte bygger på .NET, så är många av de vanligaste kommandona samma.
 
 ### Absoluta och relativa sökvägar
 
@@ -36,6 +45,8 @@ Om du istället högerklickar på din solution i Solution Explorer och väljer "
 - \> skriver output till en fil (obs! skiver över)
 - \>\> lägger til (append) output till en fil
 - | skickar output som input till nästa kommando
+
+### Vanliga kommandon i Powershell
 
 | Kommando | Betydelse |Förklaring  | 
 |--------------|------|-------------|
@@ -50,6 +61,10 @@ Om du istället högerklickar på din solution i Solution Explorer och väljer "
 | ni | new item | skapa en ny tom fil
 | code | vs code | öppnar visual studio code
 | start | | start . öppar akutell mapp i file explorer
+
+## Git och Github
+
+**Git** är ett lokalt versionskontrollsystem som låter dig hålla koll på din historik inom dina projekt, samt sparar dessa olika versioner individuellt. **GitHub** är en molntjänst där du kan spara Git-projekt på nätet och dela med dig av dem till andra människor.
 
 
 
