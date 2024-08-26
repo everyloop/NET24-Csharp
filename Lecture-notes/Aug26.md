@@ -1,5 +1,9 @@
 # Augusti 26
 
+## Markdown
+
+Läs [här](https://www.markdownguide.org/getting-started/) om markdown, och kolla in deras [cheat sheet.](https://www.markdownguide.org/cheat-sheet/)
+
 ## Visual studio installer
 Visual studio installer används för att installera eller uppdatera befintlig installation med fler komponenter.
 
