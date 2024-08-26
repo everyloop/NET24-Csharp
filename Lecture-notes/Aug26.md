@@ -9,6 +9,8 @@ Visual studio installer används för att installera eller uppdatera befintlig i
 
 I installern kan man välja att istallera enskilda komponenter, men det vanligaste är att man väljer ett paket, så kallat "workload", för den typ av utveckling man ska göra. För denna kursen använder vi workload ".NET Desktop Development"
 
+I denna kurs använder vi [Visual Studio 2022 Community](https://visualstudio.microsoft.com/downloads/)
+
 ## Visual studio
 
 ### Solution & Projects
@@ -68,7 +70,9 @@ Liknande terminal/konsoll/shell finns även för andra plattformar som t.ex Linu
 
 ## Git och Github
 
-**Git** är ett lokalt versionskontrollsystem som låter dig hålla koll på din historik inom dina projekt, samt sparar dessa olika versioner individuellt. **GitHub** är en molntjänst där du kan spara Git-projekt på nätet och dela med dig av dem till andra människor.
+[Git](https://git-scm.com/) är ett lokalt versionskontrollsystem som låter dig hålla koll på din historik inom dina projekt, samt sparar dessa olika versioner individuellt. [GitHub](https://github.com/) är en molntjänst där du kan spara Git-projekt på nätet och dela med dig av dem till andra människor.
 
+### Open source
+Klicka [här](https://choosealicense.com/licenses/) för att läsa mer om olika open-source-licenser.
 
 
