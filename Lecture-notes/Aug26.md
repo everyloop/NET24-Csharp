@@ -43,15 +43,6 @@ PowerShell är ett terminalprogram från Microsoft som används för uppgiftsaut
 
 Liknande terminal/konsoll/shell finns även för andra plattformar som t.ex Linux och Apple. Även om dessa inte bygger på .NET, så är många av de vanligaste kommandona samma.
 
-### Absoluta och relativa sökvägar
-
-- . referens till mappen man står i
-- .. är referens till parent folder
-- \* wildcard för filterering i filnamn/sökvägar
-- \> skriver output till en fil (obs! skiver över)
-- \>\> lägger til (append) output till en fil
-- | skickar output som input till nästa kommando
-
 ### Vanliga kommandon i Powershell
 
 | Kommando | Betydelse |Förklaring  | 
@@ -66,7 +57,33 @@ Liknande terminal/konsoll/shell finns även för andra plattformar som t.ex Linu
 | rm | remove | ta bort filer och mappar
 | ni | new item | skapa en ny tom fil
 | code | vs code | öppnar visual studio code
-| start | | start . öppar akutell mapp i file explorer
+| start | | "start ." öppar aktuell mapp i file explorer
+| exit | | stänger ner powershell fönstret
+
+### Absoluta och relativa sökvägar
+
+Platsen där en fil lagras anges ofta genom att man beskriver vilka mappar och undermappar som leder till filen. Detta kallas en sökväg. Du kan ange sökvägen på två olika sätt: som en absolut eller relativ sökväg.
+
+**En absolut sökväg** är en komplett sökväg till en fil eller katalog från rotkatalogen. I Windows anges diskenheter som en bokstav följt av ett kolon (t.ex C: som är den primära lagringsenheten i din dator). Rotkatalogen skrivs då som enheten följt av ett backslash, t.ex C:\
+
+Exempel, absolut sökväg: "C:\Users\Fredrik\Desktop"
+
+**En relativ sökväg** anger platsen för en fil eller katalog i förhållande till den aktuella katalogen. Relativa sökvägar börjar inte med rotkatalogen och är vanligtvis kortare än absoluta sökvägar.
+
+Exempel, relativ sökväg: ".\Fredrik\Desktop"
+
+### Specialtecken
+
+Det finns även ett antal specialtecken med specifik betydelse som används för speciella ändamål i PowerShell (och andra terminalprogram):
+
+|Namn|Tecken|Beskrivning|
+|------|----|-----------|
+|punkt|.|referens till mappen man står i|
+|punktpunkt|..|referens till överordnad mapp (parent folder)|
+|stjärna|\*|wildcard för filterering i filnamn/sökvägar|
+|redirection|\>|skriver output från kommando till en fil (obs! skiver över)|
+|append|\>\>|skriver output till en fil (lägger till i slutet av filen)|
+|pipe|\||skickar output som input till nästa kommando|
 
 ## Git och Github
 
