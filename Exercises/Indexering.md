@@ -112,7 +112,7 @@ Välj startindex: 3
 Välj stopindex: 9  
 Det<span style="color:red">ta är e</span>n text
 
-## 12. Variera färg mellan sökt tecken
+## 12. Växla färg
 
 Be användaren mata in en text. Be sedan användaren mata in en bokstav. Skriv ut hela texten, rödmarkera från första stället den hittar bokstaven till andra stället den hittar bokstaven, från tredje stället till fjärde o.s.v.
 
