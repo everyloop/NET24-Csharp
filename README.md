@@ -8,8 +8,10 @@ Här hittar du code-along projekt från lektioner, samt lektionsanteckningar.
 
 | Datum  | Översikt                                |
 |--------|-----------------------------------------|
-| [Aug 26][Aug26] | Visual Studio, Powershell, Git/Github   |
-| [Aug 28][Aug28] | Variabler, Datatyper, If-satser, Loopar |
+| [Aug 26][Aug26] | Visual Studio, Powershell, Git/Github.     |
+| [Aug 28][Aug28] | Variabler, Datatyper, If-satser, Loopar.   |
+| [Aug 29][Aug29] | Felsökning, Indexering, Arrayer, Strängar. |
 
 [Aug26]: https://github.com/everyloop/NET24-Csharp/blob/master/Lecture-notes/Aug26.md
 [Aug28]: https://github.com/everyloop/NET24-Csharp/blob/master/Lecture-notes/Aug28.md
+[Aug29]: https://github.com/everyloop/NET24-Csharp/blob/master/Lecture-notes/Aug29.md
