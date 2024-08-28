@@ -13,7 +13,7 @@
 
 ## Branching
 **Code-along:**  
-[L002_Branching.cs](https://github.com/everyloop/NET24-Csharp/blob/master/L002_Branching/Program.cs)
+[L002_Branching.cs](https://github.com/everyloop/NET24-Csharp/blob/master/Code-alongs/L002_Branching/Program.cs)
 
 **Tutorials:**  
 [If else Statements](https://www.tutorialsteacher.com/csharp/csharp-if-else)  
@@ -21,5 +21,13 @@
 [Switch statement](https://www.tutorialsteacher.com/csharp/csharp-switch)  
 
 
-## Iterering
+## Iterationer
+**Code-along:**  
+[L003_Iterationer.cs](https://github.com/everyloop/NET24-Csharp/blob/master/Code-alongs/L003_Iterationer/Program.cs)
 
+**Tutorials:**  
+[While loop](https://www.tutorialsteacher.com/csharp/csharp-while-loop)  
+[Do-while loop](https://www.tutorialsteacher.com/csharp/csharp-do-while-loop)  
+[For loop](https://www.tutorialsteacher.com/csharp/csharp-for-loop)  
+
+En annan vanlig typ av loop är **Foreach** som vi kommer kolla på [i morgon](https://github.com/everyloop/NET24-Csharp/blob/master/Lecture-notes/Aug29.md) i samband med att vi går igenom arrayer.
