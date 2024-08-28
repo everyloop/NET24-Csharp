@@ -2,7 +2,7 @@
 
 ### Detta repo innehåller utbildningsmaterial för klassen .NET24 på ITHS Göteborg.
 
-Här hittar du code-along projekt från lektioner, samt lektionsanteckningar.
+Här hittar du code-along projekt från lektioner, lektionsanteckningar, samt [övningsuppgifter](https://github.com/everyloop/NET24-Csharp/blob/master/Exercises/Exercises.md).
 
 **Anteckningar:**
 
