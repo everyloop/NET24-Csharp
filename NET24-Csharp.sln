@@ -7,6 +7,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "L001_Introduction", "Code-a
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "L002_Branching", "L002_Branching\L002_Branching.csproj", "{A73EF3B1-98D2-4729-A5F2-5CCB3E6160D4}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "L003_Iterationer", "Code-alongs\L003_Iterationer\L003_Iterationer.csproj", "{8A45F9A0-7255-478B-A355-8CAE7D92E4DF}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +23,10 @@ Global
 		{A73EF3B1-98D2-4729-A5F2-5CCB3E6160D4}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{A73EF3B1-98D2-4729-A5F2-5CCB3E6160D4}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{A73EF3B1-98D2-4729-A5F2-5CCB3E6160D4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8A45F9A0-7255-478B-A355-8CAE7D92E4DF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8A45F9A0-7255-478B-A355-8CAE7D92E4DF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8A45F9A0-7255-478B-A355-8CAE7D92E4DF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8A45F9A0-7255-478B-A355-8CAE7D92E4DF}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

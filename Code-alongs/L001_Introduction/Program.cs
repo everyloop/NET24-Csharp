@@ -77,7 +77,7 @@ Console.WriteLine(++i2);
 
 Console.WriteLine();
 int i4 = 5;
-i4 -= 3; // i4 = i4 * 3;
+i4 *= 3; // i4 = i4 * 3;
 Console.WriteLine(i4);
 
 // Assignment operator
