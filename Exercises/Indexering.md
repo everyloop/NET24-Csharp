@@ -99,6 +99,8 @@ Mata in en text: Hejsan hoppsan!
 Välj en bokstav: s  
 Hej<span style="color:red">s</span>an hopp<span style="color:red">s</span>an!
 
+***OBS!*** *Färgkodning i markdown verkar inte visas på GitHub. Check ut och visa denna filen i visual studio eller visual studio code istället!*
+
 ## 11. Start & Stop
 
 Be användaren mata in en text. Be sedan om ett startindex, och sedan om ett stopindex. Skriv ut hela texten, men alla tecken från startindex till stopindex ska vara röda.
