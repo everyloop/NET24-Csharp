@@ -1,4 +1,4 @@
-### Övningsuppgifter med variabler
+# Övningsuppgifter med variabler
 
 ## 1. Hälsa på användaren
 
@@ -15,8 +15,8 @@ Skriv ett program som ber användaren mata in två heltal. Skriv ut talen multip
 
 **Exempel:**
 ```
-Mata in tal 1: 5
-Mata in tal 2: 12
+Skriv in första talet: 5
+Skriv in andra talet: 12
 5 * 12 = 60
 ```
 *Tips: Använd Int32.Parse();*
@@ -48,3 +48,31 @@ Skriv in ett tal: 5
 10 är dubbelt så mycket som 5.
 2.5 är hälften så mycket som 5.
 ```
+
+## 6. Miniräknare
+Skriv ett program som först frågar efter ett tal, sedan frågar efter ett av följande tecken: +, -, * eller /. Därefter ska ytterligare ett tal efterfrågas. Programmet ska fungera som en simpel miniräknare. Om man t.ex matat in först 3, sedan *, och sist 5, så ska programmet skriva ut “3 * 5 = 15”.
+
+
+**Exempel:**
+```
+Första talet: 7
+Välj +, -, *, /: +
+Andra talet: 2
+7 + 2 = 9
+```
+
+## 7. Summa och medelvärde
+Skriv ett program som upprepade gånger frågar användaren efter ett tal ända till man skriver något som inte är ett tal (t.ex bara trycker enter). Efter varje inmatning ska summan av alla tal som matats in skrivas ut, innan nästa inmatning efterfrågas. Innan programmet avslutas ska man även skriva ut medelvärde av de inmatade talen.
+
+**Exempel:**
+```
+Skriv in ett tal: 3
+3
+Skriv in ett tal: 2
+5
+Skriv in ett tal: 7
+12
+Skriv in ett tal:
+Medelvärde: 4
+```
+*Tips: Kolla upp TryParse();*
