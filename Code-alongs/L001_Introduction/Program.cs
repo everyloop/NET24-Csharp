@@ -63,6 +63,8 @@ Console.WriteLine();
 // Arithmetic Operators
 // Plus (+), minus (-), gånger (*), division (/)
 // Remainder (%)
+// Increase by 1 (++), Decrease by 1 (--) 
+// +=, -=, *=, /=, %=
 
 Console.WriteLine(11 / 3); // När både täljare och nämnare är heltal blir resultat heltal, annars flyttal
 Console.WriteLine(11 % 3); // Modulus (mod) operatorn ger oss det som blir över.
@@ -72,6 +74,11 @@ int i2 = 5;
 Console.WriteLine(--i2);
 Console.WriteLine(i2++);
 Console.WriteLine(++i2);
+
+Console.WriteLine();
+int i4 = 5;
+i4 -= 3; // i4 = i4 * 3;
+Console.WriteLine(i4);
 
 // Assignment operator
 // Ett enkelt likamed tecken använd för att tilldela en variabel ett värde.
@@ -89,7 +96,7 @@ Console.WriteLine();
 Console.WriteLine(5 < 3);
 Console.WriteLine(5 > 3);
 Console.WriteLine(5 <= 3);
-Console.WriteLine(5 >= 3);
+Console.WriteLine(5 >= 3 + 5);
 
 Console.WriteLine();
 
@@ -98,7 +105,8 @@ Console.WriteLine(!true);
 Console.WriteLine(5 < 3 && 7 > 4);
 Console.WriteLine(5 < 3 || 7 > 4);
 
-
+Console.WriteLine();
+Console.WriteLine((3 + 2) * 2);
 
 
 
