@@ -3,7 +3,7 @@
 ## Variabler, datatyper och operatorer
 
 **Code-along:**  
-[L001_Introduction.cs](https://github.com/everyloop/NET24-Csharp/blob/master/Code-alongs/L001_Introduction/L001_Introduction.cs)
+[L001_Introduction.cs](https://github.com/everyloop/NET24-Csharp/blob/master/Code-alongs/L001_Introduction/Program.cs)
 
 **Tutorials:**  
 [Variabler](https://www.tutorialsteacher.com/csharp/csharp-variable)  
