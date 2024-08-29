@@ -25,4 +25,26 @@ Programmet kompilerar och startar, och det krashar inte heller. Men, resultatet 
 [Multidimensional array](https://www.tutorialsteacher.com/csharp/csharp-multi-dimensional-array)  
 [Jagged array](https://www.tutorialsteacher.com/csharp/csharp-jagged-array)  
 
+## Strängar
 
+### Indexerbara
+Strängar i C# är indexerbara, d.v.s man kan komma åt enskilda tecken (datatyp Char) med hjälp av index, på samma sätt som man kan komma åt enskilda element i en array. Till skillnad från en char[] så är kan man inte skriva till (ändra) den enskilda tecknen i en array genom indexering; de är read-only.
+
+### Escape sequences
+
+Teckenkombinationer som består av ett backslash följt av ett annat tecken kallas för "escape sequences". De används för att i kod representera t.ex, radbyte, tab, citattecken och andra tecken som man annars inte kan skriva i en vanlig string literal.
+
+[Läs mer här!](https://learn.microsoft.com/en-us/cpp/c-language/escape-sequences?view=msvc-170)
+
+### Interpolation strings
+
+String interpolation är en metod för att konkatenera, formatera och manipulera strängar.
+
+``` cs
+int operand1 = 5;
+int operand2 = 7;
+
+// Interpolation strings starts with a $
+string myString = $"{operand1} + {operand2} = {operand1 + operand2}";
+```
+[Läs mer här!](https://www.c-sharpcorner.com/article/understanding-string-interpolation-in-c-sharp/)
