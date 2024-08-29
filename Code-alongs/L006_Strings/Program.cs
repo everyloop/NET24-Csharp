@@ -2,10 +2,13 @@
 // Strängar går att indexera. De fungerar som en read-only array av Char.
 
 string myString = "Hello world";
+
+// Få ut längden på myString som heltal.
 Console.WriteLine(myString.Length);
 
 Console.WriteLine();
 
+// Loopa igenom bokstav för bokstav med index.
 for (int i = 0; i < myString.Length; i++)
 {
     Console.WriteLine(myString[i]);
@@ -13,6 +16,7 @@ for (int i = 0; i < myString.Length; i++)
 
 Console.WriteLine("***********");
 
+// Loopa igenom bokstav för bokstav med foreach
 foreach (char minBokstav in myString)
 {
     Console.WriteLine(minBokstav);
@@ -31,6 +35,6 @@ Console.WriteLine();
 Console.WriteLine(@"Hello\n""world.");
 Console.WriteLine();
 
-// Interpolation strings start med $
+// Interpolation strings startar med $
 Console.WriteLine($"Värdet på myChar är '{myChar}'");
 
