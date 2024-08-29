@@ -26,6 +26,8 @@ Programmet kompilerar och startar, och det krashar inte heller. Men, resultatet 
 [Jagged array](https://www.tutorialsteacher.com/csharp/csharp-jagged-array)  
 
 ## Strängar
+**Code-along:**  
+[L006_Strings](https://github.com/everyloop/NET24-Csharp/blob/master/Code-alongs/L006_Strings/Program.cs)
 
 ### Indexerbara
 Strängar i C# är indexerbara, d.v.s man kan komma åt enskilda tecken (datatyp Char) med hjälp av index, på samma sätt som man kan komma åt enskilda element i en array. Till skillnad från en char[] så är kan man inte skriva till (ändra) den enskilda tecknen i en array genom indexering; de är read-only.
