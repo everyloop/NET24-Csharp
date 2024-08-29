@@ -17,6 +17,9 @@ Programmet kompilerar och startar, och det krashar inte heller. Men, resultatet 
 
 ## Arrayer
 
+**Code-along:**  
+[L005_Arrays](https://github.com/everyloop/NET24-Csharp/blob/master/Code-alongs/L005_Arrays/Program.cs)
+
 **Tutorials:**  
 [Array](https://www.tutorialsteacher.com/csharp/array-csharp)  
 [Multidimensional array](https://www.tutorialsteacher.com/csharp/csharp-multi-dimensional-array)  

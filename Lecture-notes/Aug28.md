@@ -3,7 +3,7 @@
 ## Variabler, datatyper och operatorer
 
 **Code-along:**  
-[L001_Introduction.cs](https://github.com/everyloop/NET24-Csharp/blob/master/Code-alongs/L001_Introduction/Program.cs)
+[L001_Introduction](https://github.com/everyloop/NET24-Csharp/blob/master/Code-alongs/L001_Introduction/Program.cs)
 
 **Tutorials:**  
 [Variabler](https://www.tutorialsteacher.com/csharp/csharp-variable)  
@@ -13,7 +13,7 @@
 
 ## Branching
 **Code-along:**  
-[L002_Branching.cs](https://github.com/everyloop/NET24-Csharp/blob/master/Code-alongs/L002_Branching/Program.cs)
+[L002_Branching](https://github.com/everyloop/NET24-Csharp/blob/master/Code-alongs/L002_Branching/Program.cs)
 
 **Tutorials:**  
 [If else Statements](https://www.tutorialsteacher.com/csharp/csharp-if-else)  
@@ -23,7 +23,7 @@
 
 ## Iterationer
 **Code-along:**  
-[L003_Iterationer.cs](https://github.com/everyloop/NET24-Csharp/blob/master/Code-alongs/L003_Iterationer/Program.cs)
+[L003_Iterationer](https://github.com/everyloop/NET24-Csharp/blob/master/Code-alongs/L003_Iterationer/Program.cs)
 
 **Tutorials:**  
 [While loop](https://www.tutorialsteacher.com/csharp/csharp-while-loop)  
