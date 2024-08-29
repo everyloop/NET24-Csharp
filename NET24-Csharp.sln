@@ -13,6 +13,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "L004_Felsökning", "Code-al
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "L005_Arrays", "Code-alongs\L005_Arrays\L005_Arrays.csproj", "{6BA17ED6-FCCD-4BA8-BDD0-9A245BBFE72B}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "L006_Strings", "Code-alongs\L006_Strings\L006_Strings.csproj", "{21CAC7E8-B2E1-4683-B5E1-625B1D77CE90}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -39,6 +41,10 @@ Global
 		{6BA17ED6-FCCD-4BA8-BDD0-9A245BBFE72B}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{6BA17ED6-FCCD-4BA8-BDD0-9A245BBFE72B}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{6BA17ED6-FCCD-4BA8-BDD0-9A245BBFE72B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{21CAC7E8-B2E1-4683-B5E1-625B1D77CE90}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{21CAC7E8-B2E1-4683-B5E1-625B1D77CE90}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{21CAC7E8-B2E1-4683-B5E1-625B1D77CE90}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{21CAC7E8-B2E1-4683-B5E1-625B1D77CE90}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
