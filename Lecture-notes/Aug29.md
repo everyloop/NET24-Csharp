@@ -25,6 +25,26 @@ Programmet kompilerar och startar, och det krashar inte heller. Men, resultatet 
 [Multidimensional array](https://www.tutorialsteacher.com/csharp/csharp-multi-dimensional-array)  
 [Jagged array](https://www.tutorialsteacher.com/csharp/csharp-jagged-array)  
 
+## Foreach
+Foreach är en typ av loop som används för att iterera igenom alla element i en array, eller andra dataset (t.ex alla tecken i en sträng). 
+
+Loopens kodblock körs då en gång ***för varje*** element i arrayen, Foreach har en lokal variabel som för varje iteration tilldelas nästa elements värde, ända tills man gått igenom alla värden i arrayen.
+
+Till skillnad från när man använder en for-loop behöver man alltså inte använda indexering för att få ut värdena från de enskilda elementen.
+
+**Exempel:** Utskrift av alla bilar i arrayen *cars*.
+``` cs
+string[] cars = {"Volvo", "BMW", "Ford", "Mazda"};
+foreach (string car in cars) 
+{
+  Console.WriteLine(car);
+}
+```
+
+Den lokala variabeln (car) är alltid read-only. Det betyder att med en foreach kan man aldrig uppdatera data i datasetet man loopar igenom. Vill man uppdatera behöver man istället använda en for-loop och indexering.
+
+[Läs mer här!](https://www.programiz.com/csharp-programming/foreach-loop)
+
 ## Strängar
 **Code-along:**  
 [L006_Strings](https://github.com/everyloop/NET24-Csharp/blob/master/Code-alongs/L006_Strings/Program.cs)
