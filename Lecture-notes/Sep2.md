@@ -1,19 +1,5 @@
 # September 2
 
-## Call stack
-Allmäna begrepp inom datavetenskap:
-
-- En **datatyp** beskriver vilken typ av data som ett enskilt värde (t.ex en variabel) är. (text, heltal etc.)
-- En **datastruktur** beskriver hur flera värden (datapunkter) struktureras till en större helhet.
-
-En **stack** är en datastruktur där nya värden alltid läggs till i slutet på redan existerande värden i "stacken", och när man läser ett värde från "stacken" så är det alltid det senaste skrivna (detta plockas då samtidigt bort ur "stacken"). Detta kallas ibland även för en LIFO (Last In, First Out).
-
-Under körning så använder .NET runtime internt så kallad **call stack** för att hålla reda på vilken del av koden som ska anropas härnäst. Så länge statements bara körs efter varandra (utan funktionsanrop) så kommer det finnas ett värde längst ner i *call stack* som uppdateras för att hela tiden peka på nästa rad.
-
-När programmet däremot hoppar in i en funktion, så läggs ett nytt värde överst på *call stack* som uppdateras när programmet stegar vidare. Samtidigt ligger alla referenser till *varifrån* funktionen anropas kvar längre ner i stacken, så att runtime vet vart den ska hoppa "tillbaks" efter en funktion körts klart.
-
-I Visual studio kan man öppna ett fönster i debug-läget som visar call stacken, så man alltid kan se exakt vilken väg programmet tagit för att komma till ett visst ställe i koden.
-
 ## Funktioner (och Metoder)
 
 **Code-along:**  
@@ -59,3 +45,17 @@ Argument kallas de värden som skickas in vid själva anropet till funktionen. A
 En funktion kan returnera noll eller ett (men inte flera) värde tillbaks till koden som gjorde anropet.
 
 Datatypen som funktionen returnerar anges i signaturen, före funktionsnamnet. Om funktionen inte returnerar något värde alls anges istället keyword **void** på den plats där datatypen annars står.
+
+## Call stack
+Allmäna begrepp inom datavetenskap:
+
+- En **datatyp** beskriver vilken typ av data som ett enskilt värde (t.ex en variabel) är. (text, heltal etc.)
+- En **datastruktur** beskriver hur flera värden (datapunkter) struktureras till en större helhet.
+
+En **stack** är en datastruktur där nya värden alltid läggs till i slutet på redan existerande värden i "stacken", och när man läser ett värde från "stacken" så är det alltid det senaste skrivna (detta plockas då samtidigt bort ur "stacken"). Detta kallas ibland även för en LIFO (Last In, First Out).
+
+Under körning så använder .NET runtime internt så kallad **call stack** för att hålla reda på vilken del av koden som ska anropas härnäst. Så länge statements bara körs efter varandra (utan funktionsanrop) så kommer det finnas ett värde längst ner i *call stack* som uppdateras för att hela tiden peka på nästa rad.
+
+När programmet däremot hoppar in i en funktion, så läggs ett nytt värde överst på *call stack* som uppdateras när programmet stegar vidare. Samtidigt ligger alla referenser till *varifrån* funktionen anropas kvar längre ner i stacken, så att runtime vet vart den ska hoppa "tillbaks" efter en funktion körts klart.
+
+I Visual studio kan man öppna ett fönster i debug-läget som visar call stacken, så man alltid kan se exakt vilken väg programmet tagit för att komma till ett visst ställe i koden.
