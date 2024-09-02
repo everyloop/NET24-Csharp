@@ -85,7 +85,7 @@ Greet("Anna", 4);
 
 Console.WriteLine("************");
 
-static string GetFullName(string firstName, string lastName)
+static string GetFullName(string firstName = "Fredrik", string lastName = "Johansson")
 {
     if (firstName.Length < lastName.Length)
     {
@@ -101,9 +101,26 @@ static string GetFullName(string firstName, string lastName)
 
 Console.WriteLine(GetFullName("Fredrik", "Johansson".ToUpper()));
 Console.WriteLine(GetFullName("Fredrik", "Ek"));
-Console.WriteLine(GetFullName("Anna", "Palm"));
 
-Console.WriteLine("Hello".ToUpper());
+// Naming arguments
+Console.WriteLine(GetFullName(lastName: "Anna", firstName: "Palm"));
+
+Console.WriteLine(GetFullName(lastName: "1234567"));
+//Console.WriteLine("Hello".ToUpper());
+
+// Keyword: params
+static void PrintStrings(string greetingPhrase, params string[] strings)
+{
+    for (int i = 0; i < strings.Length; i++)
+    {
+        Console.WriteLine($"{greetingPhrase}, {strings[i]}");
+    }
+}
+
+Console.WriteLine("***********");
+
+//string[] names = new string[] { "Kalle", "Niklas", "Anna", "Frida" };
+PrintStrings("Hello", "Kalle", "Niklas", "Anna", "Frida");
 
 
 
