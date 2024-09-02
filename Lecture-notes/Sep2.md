@@ -61,6 +61,10 @@ När programmet däremot hoppar in i en funktion, så läggs ett nytt värde öv
 I Visual studio kan man öppna ett fönster i debug-läget som visar call stacken, så man alltid kan se exakt vilken väg programmet tagit för att komma till ett visst ställe i koden.
 
 ## Rekursiva anrop
+
+**Code-along:**  
+[L008_Rekursiva_anrop](https://github.com/everyloop/NET24-Csharp/blob/master/Code-alongs/L008_Rekursiva_anrop/Program.cs)
+
 Ett rekursivt anrop är när en funktion eller metod anropar sig själv (alternativ två eller fler funktioner som anropar varandra). Om funktionen/funktionerna inte har något vilkor för när dessa anropen ska sluta så kommer programmet hamna i en "evig" loop, och ganska snabbt krasha för att minnet i call stacken tar slut (eftersom man fortsätter lägga till värden för varje anrop, som aldrig plockas bort då ingen funktion avslutas.)
 
 ### Undvik rekursiva anrop
