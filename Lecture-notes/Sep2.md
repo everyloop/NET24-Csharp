@@ -59,3 +59,13 @@ Under körning så använder .NET runtime internt så kallad **call stack** för
 När programmet däremot hoppar in i en funktion, så läggs ett nytt värde överst på *call stack* som uppdateras när programmet stegar vidare. Samtidigt ligger alla referenser till *varifrån* funktionen anropas kvar längre ner i stacken, så att runtime vet vart den ska hoppa "tillbaks" efter en funktion körts klart.
 
 I Visual studio kan man öppna ett fönster i debug-läget som visar call stacken, så man alltid kan se exakt vilken väg programmet tagit för att komma till ett visst ställe i koden.
+
+## Rekursiva anrop
+Ett rekursivt anrop är när en funktion eller metod anropar sig själv (alternativ två eller fler funktioner som anropar varandra). Om funktionen/funktionerna inte har något vilkor för när dessa anropen ska sluta så kommer programmet hamna i en "evig" loop, och ganska snabbt krasha för att minnet i call stacken tar slut (eftersom man fortsätter lägga till värden för varje anrop, som aldrig plockas bort då ingen funktion avslutas.)
+
+### Undvik rekursiva anrop
+Rekursiva anrop *kan* användas för att lösa olika typer av problem. Dessas problem kan dock lösas även utan rekursiva anrop, vilket ofta ger mer lättbegriplig kod.
+
+Min rekommendation är att ni helt undviker att använda rekursiva anrop, eftersom dessa oftast gör koden krångligare; specielt om man är ny på programmering.
+
+Är man ändå intresserad av att förstå hur de fungerar så kan man hitta övningar på rekursiva anrop t.ex. [här](https://www.exercisescsharp.com/recursion/)
