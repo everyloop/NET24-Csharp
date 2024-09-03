@@ -110,3 +110,10 @@ Först kan man fundera över vad som är rimligt. I vårat exempel inom vilket s
 Finns det någon testdata, med känt resultat, som vi kan provköra våran algoritm på?
 
 På vilka andra sätt kan vi verifiera resultatet?
+
+## OBS! Återuppfinn inte hjulet
+Tänk på att för de flesta standardproblem finns det mängder av färdiga lösningar. Om du behöver utföra vanliga operationer som t.ex komprimera, sortera eller söka i data, så finns detta inbyggt i .NET med väldigt optimerade algoritmer.
+
+Chansen att du som nybörjare ska lyckas ta fram nya algoritmer som är mer optimerade än dessa är, typ noll.
+
+Använd därför alltid de inbyggda lösningarna, alternativ sök upp färdiga bibliotek (färdig kod) för detta på [nuget.org](https://www.nuget.org/).
