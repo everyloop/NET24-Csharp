@@ -6,19 +6,23 @@ Algoritmer liknas ofta vid ett recept som talar om för en dator hur den ska lö
 
 [Introduktion till algoritmer](https://www.khanacademy.org/computing/computer-science/algorithms/intro-to-algorithms/v/what-are-algorithms)
 
-### Exempel på algoritmer
-Det finns många standardkategorier av problem som behöver lösas; t.ex. sortering av data.
-
-För varje sådan kategori finns vanligtvis mängder av olika algoritmer att välja på. 
-
-[Här är en video som visuellt jämför 24 vanliga sorteringsalgoritmer (Varning, sänk ljudet)](https://www.youtube.com/watch?v=BeoCbJPuvSE)
-
-***OBS!*** *När du skriver kod, undersök alltid om det finns färdiga lösningar/algoritmer för problemet du försöker lösa. För standardproblem, som t.ex sortering, så finns effektiva algortimer inbyggda i .NET; Lägg inte tid på att försöka skriva din egen. (Om det inte är i studiesyfte, för att bättre förstå tekniken).*
-
 ### Big-O Notation
 Big-O notation är ett sätt att mäta tids- och utrymmeskomplexiteten hos en algoritm. Den beskriver den övre gränsen för komplexiteten i worst-case scenariet.
 
 [Läs mer här!](https://dev.to/b0nbon1/understanding-big-o-notation-with-javascript-25mc)
+
+### Exempel på sorteringsalgoritmer
+Det finns många standardkategorier av problem som behöver lösas; t.ex. sortering av data.
+
+För varje sådan kategori finns vanligtvis mängder av olika algoritmer att välja på.
+
+[Bubble sort](https://www.youtube.com/watch?v=hahrx5WUeNI) är ett exempel på en sorteringsalgoritm som är enkel att förstå men väldigt ineffektiv jämfört med andra mer komplicerade algoritmer som t.ex [Quick sort](https://www.youtube.com/watch?v=WprjBK0p6rw).
+
+[Här är en video som visuellt jämför 24 vanliga sorteringsalgoritmer (Varning, sänk ljudet)](https://www.youtube.com/watch?v=BeoCbJPuvSE)
+
+För den som vill nörda ner sig lite extra finns här en video som förklarar [Merge sort](https://www.youtube.com/watch?v=3j0SWDX4AtU) samt visar hur den kan implementeras i Java (som är ett språk ganska likt C#, så ni kommer känna igen er).
+
+***OBS!*** *När du skriver kod, undersök alltid om det finns färdiga lösningar/algoritmer för problemet du försöker lösa. För standardproblem, som t.ex sortering, så finns effektiva algortimer inbyggda i .NET; Lägg inte tid på att försöka skriva din egen. (Om det inte är i studiesyfte, för att bättre förstå tekniken).*
 
 ## Project Euler
 På [projecteuler.net](https://projecteuler.net/archives) hittar ni en serie utmanande matematik/programmerings-problem ni kan prova på för att utveckla er förmåga att lösa problem med hjälp av programmering.
