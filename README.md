@@ -12,9 +12,10 @@ Här hittar du code-along projekt från lektioner, lektionsanteckningar, samt [�
 | [Aug 28][Aug28] | Variabler, Datatyper, If-satser, Loopar.      |
 | [Aug 29][Aug29] | Felsökning, Indexering, Arrayer, Strängar.    |
 | [Sep 2][Sep2] | Funktioner, Parametrar, Returvärde, Call Stack. |
-
+| [Sep 4][Sep4] | Algoritmer, Problemlösning, Project Euler.      |
 
 [Aug26]: https://github.com/everyloop/NET24-Csharp/blob/master/Lecture-notes/Aug26.md
 [Aug28]: https://github.com/everyloop/NET24-Csharp/blob/master/Lecture-notes/Aug28.md
 [Aug29]: https://github.com/everyloop/NET24-Csharp/blob/master/Lecture-notes/Aug29.md
 [Sep2]: https://github.com/everyloop/NET24-Csharp/blob/master/Lecture-notes/Sep2.md
+[Sep4]: https://github.com/everyloop/NET24-Csharp/blob/master/Lecture-notes/Sep4.md
