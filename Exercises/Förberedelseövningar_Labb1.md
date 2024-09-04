@@ -2,6 +2,8 @@
 
 Här har ni fler övningsuppgifter med loopar och indexering av strängar. Dessa kan vara bra att lösa innan man ger sig på labb 1, då ni kommer lära er en del saker som kan hjälpa er på labben.
 
+***OBS!*** *Färgkodning i markdown verkar inte visas på GitHub. Checka ut och visa denna filen i Visual studio eller Visual studio code istället!*
+
 ## 1. Bokstav för bokstav - fram till space
 Utgå från strängen (skapa en variabel med) "Hello World!", skriv ut hela strängen bokstav för bokstav, men avsluta när det kommer ett space. (Den ska alltså bara skriva “Hello”).
 
