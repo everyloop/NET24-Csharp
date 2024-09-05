@@ -21,14 +21,14 @@ Detta är två klasser som tillhandahåller metoder för trigonometri, logaritme
 Båda klasser har samma uppsättningar metoder. Skillnaden är bara att Math gör operationer på double, medan MathF används för float.
 
 **Code-along:**  
-[L010_Math_and_Random](https://github.com/everyloop/NET24-Csharp/tree/master/Code-alongs/L010_Math_and_Random)
+[L010_Math_and_Random](https://github.com/everyloop/NET24-Csharp/tree/master/Code-alongs/L010_Math_and_Random/Program.cs)
 
 
 ## [Random](https://learn.microsoft.com/en-us/dotnet/api/system.random?view=net-8.0)
 Datatyp som representerar en pseudo-random nummergenerator.
 
 **Code-along:**  
-[L010_Math_and_Random](https://github.com/everyloop/NET24-Csharp/tree/master/Code-alongs/L010_Math_and_Random)
+[L010_Math_and_Random](https://github.com/everyloop/NET24-Csharp/tree/master/Code-alongs/L010_Math_and_Random/Program.cs)
 
 ## [Console](https://learn.microsoft.com/en-us/dotnet/api/system.console?view=net-8.0)
 Class som representerar standard input/output för konsollapplikationer.
@@ -37,12 +37,12 @@ Class som representerar standard input/output för konsollapplikationer.
 En datatyp som representerar en tidpunkt, vanligtvis i form av ett datum och ett klockslag.
 
 **Code-along:**  
-[L011_DateTime_and_TimeSpan](https://github.com/everyloop/NET24-Csharp/tree/master/Code-alongs/L011_DateTime_and_TimeSpan)
+[L011_DateTime_and_TimeSpan](https://github.com/everyloop/NET24-Csharp/tree/master/Code-alongs/L011_DateTime_and_TimeSpan/Program.cs)
 
 
 ## [TimeSpan](https://learn.microsoft.com/en-us/dotnet/api/system.timespan?view=net-8.0)
 Datatyp som representerar ett tidsspann.
 
 **Code-along:**  
-[L011_DateTime_and_TimeSpan](https://github.com/everyloop/NET24-Csharp/tree/master/Code-alongs/L011_DateTime_and_TimeSpan)
+[L011_DateTime_and_TimeSpan](https://github.com/everyloop/NET24-Csharp/tree/master/Code-alongs/L011_DateTime_and_TimeSpan/Program.cs)
 
