@@ -4,7 +4,12 @@ string myString = string.Empty;
 
 myString = "Hello world!";
 
+Console.WriteLine();
+Console.WriteLine($"myString = {myString}");
+
 Console.WriteLine($"Length of myString: {myString.Length}");
+Console.WriteLine();
+
 Console.WriteLine($"myString.ToLower() => {myString.ToLower()}");
 Console.WriteLine($"myString.ToUpper() => {myString.ToUpper()}");
 
@@ -19,8 +24,9 @@ Console.WriteLine($"myString.Replace(\"world\", \"there\") => {myString.Replace(
 
 Console.WriteLine($"myString.myString.IndexOf('o')) => {myString.IndexOf('o')}");
 
-
+Console.WriteLine();
 Console.WriteLine("*** Char ************");
+Console.WriteLine();
 
 Console.WriteLine($"Char.IsDigit('A') => {Char.IsDigit('A')}");
 Console.WriteLine($"Char.IsDigit('4') => {Char.IsDigit('4')}");
