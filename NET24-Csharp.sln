@@ -25,6 +25,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "L010_Math_and_Random", "Cod
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "L009_String_and_Char", "Code-alongs\L009_String_and_Char\L009_String_and_Char.csproj", "{DDFFA409-3A1A-46F1-9A64-F91231F83DA9}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "L011_DateTime_and_TimeSpan", "Code-alongs\L011_DateTime_and_TimeSpan\L011_DateTime_and_TimeSpan.csproj", "{4E96BFBB-1B32-46FF-A6B0-A4641F53FB6F}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -75,6 +77,10 @@ Global
 		{DDFFA409-3A1A-46F1-9A64-F91231F83DA9}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{DDFFA409-3A1A-46F1-9A64-F91231F83DA9}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{DDFFA409-3A1A-46F1-9A64-F91231F83DA9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4E96BFBB-1B32-46FF-A6B0-A4641F53FB6F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4E96BFBB-1B32-46FF-A6B0-A4641F53FB6F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4E96BFBB-1B32-46FF-A6B0-A4641F53FB6F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4E96BFBB-1B32-46FF-A6B0-A4641F53FB6F}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
