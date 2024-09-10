@@ -14,6 +14,7 @@ Här hittar du code-along projekt från lektioner, lektionsanteckningar, samt [�
 | [Sep 2][Sep2] | Funktioner, Parametrar, Returvärde, Call Stack. |
 | [Sep 4][Sep4] | Algoritmer, Problemlösning, Project Euler.      |
 | [Sep 5][Sep5] | Introduktion till vanligaste klasserna i .NET   |
+| [Sep 9][Sep9] | Exceptions                                      |
 
 
 [Aug26]: https://github.com/everyloop/NET24-Csharp/blob/master/Lecture-notes/Aug26.md
@@ -22,3 +23,4 @@ Här hittar du code-along projekt från lektioner, lektionsanteckningar, samt [�
 [Sep2]: https://github.com/everyloop/NET24-Csharp/blob/master/Lecture-notes/Sep2.md
 [Sep4]: https://github.com/everyloop/NET24-Csharp/blob/master/Lecture-notes/Sep4.md
 [Sep5]: https://github.com/everyloop/NET24-Csharp/blob/master/Lecture-notes/Sep5.md
+[Sep9]: https://github.com/everyloop/NET24-Csharp/blob/master/Lecture-notes/Sep9.md

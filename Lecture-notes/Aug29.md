@@ -12,6 +12,8 @@ Denna typ av fel är de enklaste att upptäcka och fixa. Googla felmedelandet, e
 ### Runtime error (Exekveringsfel)
 Koden är "korrekt" så tillvida att programmet kompilerar, men programmet "krashar" under körning, med ett felmeddelande.
 
+Denna typ av fel kastar en "exception". Vilket vi går igenom [9:e September](https://github.com/everyloop/NET24-Csharp/blob/master/Lecture-notes/Sep9.md)
+
 ### Logical errors (Logiskt fel)
 Programmet kompilerar och startar, och det krashar inte heller. Men, resultatet av programmet är inte det förväntade.
 
