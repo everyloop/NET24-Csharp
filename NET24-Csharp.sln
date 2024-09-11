@@ -27,7 +27,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "L009_String_and_Char", "Cod
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "L011_DateTime_and_TimeSpan", "Code-alongs\L011_DateTime_and_TimeSpan\L011_DateTime_and_TimeSpan.csproj", "{4E96BFBB-1B32-46FF-A6B0-A4641F53FB6F}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "L012_Exceptions", "Code-alongs\L012_Exceptions\L012_Exceptions.csproj", "{BF2E7870-CD19-4092-9904-921E5D60BEBB}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "L012_Exceptions", "Code-alongs\L012_Exceptions\L012_Exceptions.csproj", "{BF2E7870-CD19-4092-9904-921E5D60BEBB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "L013_Unicode", "Code-alongs\L013_Unicode\L013_Unicode.csproj", "{EEFBF21F-EBC7-4807-8D89-6E88E1CA64E3}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -87,6 +89,10 @@ Global
 		{BF2E7870-CD19-4092-9904-921E5D60BEBB}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{BF2E7870-CD19-4092-9904-921E5D60BEBB}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{BF2E7870-CD19-4092-9904-921E5D60BEBB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EEFBF21F-EBC7-4807-8D89-6E88E1CA64E3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EEFBF21F-EBC7-4807-8D89-6E88E1CA64E3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EEFBF21F-EBC7-4807-8D89-6E88E1CA64E3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EEFBF21F-EBC7-4807-8D89-6E88E1CA64E3}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
