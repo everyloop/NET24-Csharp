@@ -35,6 +35,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "L014_Path_and_Directory", "
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "L015_StreamWriter_och_StreamReader", "Code-alongs\L015_StreamWriter_och_StreamReader\L015_StreamWriter_och_StreamReader.csproj", "{F7CF590D-CF20-4A84-8149-192B4037CCE4}"
 EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "L016_FileStream", "Code-alongs\L016_FileStream\L016_FileStream.csproj", "{73B88D7F-7CCC-4CB0-8F0A-E325A8ED4A7A}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -105,6 +107,10 @@ Global
 		{F7CF590D-CF20-4A84-8149-192B4037CCE4}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{F7CF590D-CF20-4A84-8149-192B4037CCE4}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{F7CF590D-CF20-4A84-8149-192B4037CCE4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{73B88D7F-7CCC-4CB0-8F0A-E325A8ED4A7A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{73B88D7F-7CCC-4CB0-8F0A-E325A8ED4A7A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{73B88D7F-7CCC-4CB0-8F0A-E325A8ED4A7A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{73B88D7F-7CCC-4CB0-8F0A-E325A8ED4A7A}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
