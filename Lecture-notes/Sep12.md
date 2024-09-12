@@ -34,12 +34,15 @@ Används för att skriva text-data till en stream.
 
 ## [StreamReader](https://learn.microsoft.com/en-us/dotnet/api/system.io.streamreader?view=net-8.0)
 
-Används för att skriva text-data till en stream.
+Används för att läsa text-data från en stream.
 
 **Code-along:**  
 [L015_StreamWriter_och_StreamReader](https://github.com/everyloop/NET24-Csharp/blob/master/Code-alongs/L015_StreamWriter_och_StreamReader/Program.cs)
 
-## [FileStream](https://learn.microsoft.com/en-us/dotnet/api/system.io.streamreader?view=net-8.0)
+## [FileStream](https://learn.microsoft.com/en-us/dotnet/api/system.io.filestream?view=net-8.0)
 
 Används för att läsa/skriva binär-data från/till en fil.
+
+**Code-along:**  
+[L016_FileStream](https://github.com/everyloop/NET24-Csharp/blob/master/Code-alongs/L016_FileStream/Program.cs)
 
