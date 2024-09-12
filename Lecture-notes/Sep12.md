@@ -7,6 +7,10 @@ Klicka på rubrikerna för att komma till den officiella dokumentationen.
 
 Utför operationer på strängar som innehåller sökvägar.
 
+### Sökvägar
+
+Kolla gärna avsnittet om [absoluta och relativa sökvägar](https://github.com/everyloop/NET24-Csharp/blob/master/Lecture-notes/Aug26.md) från tidigare lektion.
+
 ## [Directory](https://learn.microsoft.com/en-us/dotnet/api/system.io.directory?view=net-8.0)
 
 Tillhandahåller metoder för att bland annat skapa, flytta, och ta bort, och visa innehållet i mappar.
