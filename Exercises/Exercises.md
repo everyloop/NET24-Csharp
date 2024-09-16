@@ -6,3 +6,4 @@
 [Funktioner](https://github.com/everyloop/NET24-Csharp/blob/master/Exercises/Funktioner.md)  
 [Förberedelseövningar för labb 1](https://github.com/everyloop/NET24-Csharp/blob/master/Exercises/F%C3%B6rberedelse%C3%B6vningar_Labb1.md)  
 [Läs in metadata från bildfiler](https://github.com/everyloop/NET24-Csharp/blob/master/Exercises/MetadataFr%C3%A5nFil.md)  
+[Klasser och objekt](https://github.com/everyloop/NET24-Csharp/blob/master/Exercises/BasicOOP.md)  
