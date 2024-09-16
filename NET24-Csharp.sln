@@ -31,11 +31,13 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "L012_Exceptions", "Code-alo
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "L013_Unicode", "Code-alongs\L013_Unicode\L013_Unicode.csproj", "{EEFBF21F-EBC7-4807-8D89-6E88E1CA64E3}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "L014_Path_and_Directory", "Code-alongs\L014_Path_and_Directory\L014_Path_and_Directory.csproj", "{B88F0A72-B42F-4F38-9D87-DC4D1D4405FE}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "L014_Path_and_Directory", "Code-alongs\L014_Path_and_Directory\L014_Path_and_Directory.csproj", "{B88F0A72-B42F-4F38-9D87-DC4D1D4405FE}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "L015_StreamWriter_och_StreamReader", "Code-alongs\L015_StreamWriter_och_StreamReader\L015_StreamWriter_och_StreamReader.csproj", "{F7CF590D-CF20-4A84-8149-192B4037CCE4}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "L015_StreamWriter_och_StreamReader", "Code-alongs\L015_StreamWriter_och_StreamReader\L015_StreamWriter_och_StreamReader.csproj", "{F7CF590D-CF20-4A84-8149-192B4037CCE4}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "L016_FileStream", "Code-alongs\L016_FileStream\L016_FileStream.csproj", "{73B88D7F-7CCC-4CB0-8F0A-E325A8ED4A7A}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "L017_OOP_Intro", "Code-alongs\L017_OOP_Intro\L017_OOP_Intro.csproj", "{08F0EC46-5E95-43BB-97FC-D64DDD311496}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -111,6 +113,10 @@ Global
 		{73B88D7F-7CCC-4CB0-8F0A-E325A8ED4A7A}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{73B88D7F-7CCC-4CB0-8F0A-E325A8ED4A7A}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{73B88D7F-7CCC-4CB0-8F0A-E325A8ED4A7A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{08F0EC46-5E95-43BB-97FC-D64DDD311496}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{08F0EC46-5E95-43BB-97FC-D64DDD311496}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{08F0EC46-5E95-43BB-97FC-D64DDD311496}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{08F0EC46-5E95-43BB-97FC-D64DDD311496}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
