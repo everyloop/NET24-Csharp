@@ -17,6 +17,7 @@ Här hittar du code-along projekt från lektioner, lektionsanteckningar, samt [�
 | [Sep 9][Sep9]   | Exception handling.                                   |
 | [Sep 11][Sep11] | Binary, Hexadecimal, Enheter/Prefix, ASCII, Unicode.  |
 | [Sep 12][Sep12] | Filhantering. Läsa och skriva filer.                  |
+| [Sep 16][Sep16] | Introduktion OOP: klasser och objekt.                 |
 
 [Aug26]: https://github.com/everyloop/NET24-Csharp/blob/master/Lecture-notes/Aug26.md
 [Aug28]: https://github.com/everyloop/NET24-Csharp/blob/master/Lecture-notes/Aug28.md
@@ -27,3 +28,4 @@ Här hittar du code-along projekt från lektioner, lektionsanteckningar, samt [�
 [Sep9]: https://github.com/everyloop/NET24-Csharp/blob/master/Lecture-notes/Sep9.md
 [Sep11]: https://github.com/everyloop/NET24-Csharp/blob/master/Lecture-notes/Sep11.md
 [Sep12]: https://github.com/everyloop/NET24-Csharp/blob/master/Lecture-notes/Sep12.md
+[Sep16]: https://github.com/everyloop/NET24-Csharp/blob/master/Lecture-notes/Sep16.md
