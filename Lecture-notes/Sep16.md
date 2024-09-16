@@ -8,7 +8,7 @@
 Fler inspelningar där jag visar praktiska exemepel i kod, hittar du i Teams.
 
 **Code-along:**  
-[L017_OOP_Intro](https://github.com/everyloop/NET24-Csharp/blob/master/Code-alongs/L017_OOP_Intro/Program.css)
+[L017_OOP_Intro](https://github.com/everyloop/NET24-Csharp/blob/master/Code-alongs/L017_OOP_Intro/Program.cs)
 
 ### Fyra grundprinciper i OOP
 
