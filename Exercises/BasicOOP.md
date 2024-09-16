@@ -18,7 +18,7 @@ Uppdatera person-klassen så att varje person kan ha en mamma och en pappa. Dess
 ## 6. Skapa ett objekt som representerar dig och dina föräldrar
 Gör en instans av en person och ge den ditt för- och efternamn. Lägg även in dina föräldrars namn, kopplade till dig. Så t.ex myself.GetFullName() returnerar ditt namn, och myself.mother.GetFullName() returnerar din mammas namn.
 
-## 7. Hämta information on dig och dina föräldrar.
+## 7. Hämta information om dig och dina föräldrar.
 Lägg till en public string GetSelfAndParents() som returnerar en sträng på formatet "Ditt Namn - Mamma: Mammans Namn - Pappa: Pappans namn". Om mammans eller pappans namn saknas (null) markera det med "okänd" i strängen. Exempel: "Fredrik Johansson - Mamma: okänd - Pappa: Göran Johansson" 
 
 ## 8. Privat fält, med metoder för att sätta och hämta värdet.
