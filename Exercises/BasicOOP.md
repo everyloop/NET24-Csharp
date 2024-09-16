@@ -7,4 +7,7 @@ Skriv en klass som representerar en person. Klassen ska ha två publika fält (f
 Uppdatera klassen i uppgift 1 med en metod: public string GetFullName(), som returnerar en sträng med hela namnet.
 
 
+## 3. Lägg till en metod som returnerar namnet baklänges
+Uppdatera klassen med en ny metod: public string GetFullNameReversed() som returnerar en sträng med hela namnet baklänges. Låt denna metoden använda sig av metoden i uppgift 2.
+
 
