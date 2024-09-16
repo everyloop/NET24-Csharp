@@ -3,3 +3,8 @@
 ## 1. Skriva ut namn på personer
 Skriv en klass som representerar en person. Klassen ska ha två publika fält (fields): firstName, lastName. Skapa två instanser av personer med olika för och efternamn, och använd sedan dessa för att printa ut (hela) namnen på de olika personerna.
 
+## 2. Lägg till en metod som returnerar hela namnet
+Uppdatera klassen i uppgift 1 med en metod: public string GetFullName(), som returnerar en sträng med hela namnet.
+
+
+
