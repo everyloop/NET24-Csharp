@@ -20,3 +20,15 @@ Gör en instans av en person och ge den ditt för- och efternamn. Lägg även in
 
 ## 7. Hämta information on dig och dina föräldrar.
 Lägg till en public string GetSelfAndParents() som returnerar en sträng på formatet "Ditt Namn - Mamma: Mammans Namn - Pappa: Pappans namn". Om mammans eller pappans namn saknas (null) markera det med "okänd" i strängen. Exempel: "Fredrik Johansson - Mamma: okänd - Pappa: Göran Johansson" 
+
+## 8. Privat fält, med metoder för att sätta och hämta värdet.
+Uppdatera klassen med ett fält, *private* double length, som kan lagra längden på personen. Eftersom denna är markerad som private kommer man inte kunna läsa/skriva denna utanför klassen. Lägg därför till en metod void SetLength(double length) som sätter värdet på det privat fältet length, samt en double GetLength() som returnerar värdet på fältet length.
+
+När du är klar ska följande kod ge utskriften 1.82
+```cs
+Person myPerson = new Person();
+myPerson.SetLength(1.82);
+Console.Write(myPerson.GetLength());
+```
+## 9. Vikt och BMI
+Gör motsvarande för Vikt, alltså ett privat fält med publika metoder: double GetWeight() och void SetWeight(double weight). Gör sedan även en publik metod double GetBMI() som returnerar personens [BMI](https://sv.wikipedia.org/wiki/BMI_(kroppsmasseindex)). Detta ska dock *inte* finnas representerat som en private field.
