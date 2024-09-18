@@ -35,7 +35,7 @@ Skriv en ny klass som representerar en bil. Varje bil ska kunna ha en färg som 
 ## 9. Lägg till statisk metod
 Lägg till en statisk metod på klassen i uppgift 8. Metoden ska ta en bil som inparameter och returnera en array med 10 bilar i samma färg som bilen man skickat in, men med olika längd.
 
-## 10. 
+## 10. Simulering
 Uppdatera konstruktorn på klassen i uppgift 8 (och 9) så att bilen även får en random hastighet (mellan 60 och 240 km/h). Skriv en metod DriveForOneHour() som uppdaterar en property Distance med total körsträcka. Distance ska alltså initieras på 0, och sedan ökar för varje gång man anropar DriveForOneHour(). Lägg sedan till en metod GetGraph() som returnerar en string på 20 tecken som representerar en körsträcka på 1000 mil och visar bilens position enligt exempel: “|------x-----------|”.
 (‘x’ är alltså bilens position mellan start och mål (1000 mil).
 
