@@ -1,10 +1,24 @@
-﻿using myNamespace.anotherNamespace;
-using myNamespace;
-using System;
+﻿//using myNamespace.anotherNamespace;
+//using myNamespace;
+//using System;
 
+// Fungerar inte utan using ovan, eftersom den inte hittar Cat i detta namespace.
 Cat.SayHello();
 
-Dog.SayHello();
+// Detta fungerar dock, eftersom den explicit skriver vilken namespace Dog ligger i.
+myNamespace.anotherNamespace.Dog.SayHello();
+
+// Console ligger i System, och fungerar alltså inte utan att ange System.Console.Writeline,
+// alternativt använda using System ovan. Dock finns i projektets configfil en setting som heter
+// ImplicitUsings som normalt är enabled och automatiskt använder följande namespaces utan att
+// man explicit behöver använda using i varje fil:
+//System
+//System.Collections.Generic
+//System.IO
+//System.Linq
+//System.Net.Http
+//System.Threading
+//System.Threading.Tasks
 
 Console.WriteLine();
 
