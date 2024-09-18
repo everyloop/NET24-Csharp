@@ -47,6 +47,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "L021_Konstruktor", "Code-al
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "L018_Static_classes_and_members", "Code-alongs\L018_Static_classes_and_members\L018_Static_classes_and_members.csproj", "{0BE8EBCD-9365-484C-AA02-600C33DBB9A3}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "L022_Properties", "Code-alongs\L022_Properties\L022_Properties.csproj", "{3B804727-036E-4981-8AF2-C1F420D039B4}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -141,6 +143,10 @@ Global
 		{0BE8EBCD-9365-484C-AA02-600C33DBB9A3}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{0BE8EBCD-9365-484C-AA02-600C33DBB9A3}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{0BE8EBCD-9365-484C-AA02-600C33DBB9A3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3B804727-036E-4981-8AF2-C1F420D039B4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3B804727-036E-4981-8AF2-C1F420D039B4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3B804727-036E-4981-8AF2-C1F420D039B4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3B804727-036E-4981-8AF2-C1F420D039B4}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
