@@ -42,6 +42,9 @@ Flera metoder i en klass kan ha samma namn fast med olika (i antal eller typ) pa
 
 [Läs mer här!](https://learn.microsoft.com/en-us/dotnet/csharp/programming-guide/classes-and-structs/static-classes-and-static-class-members)
 
+**Code-along:**  
+[L018_Static_classes_and_members](https://github.com/everyloop/NET24-Csharp/blob/master/Code-alongs/L018_Static_classes_and_members/Program.cs)
+
 ## Top level statements
 
 Top level statements introducerades i C# 9. Innan dess behövde alla program alltid innehålla en explicit Main-metod som var appens entry point.
@@ -57,11 +60,22 @@ Se även längre förklaring i kommentarerna i denna code-along:
 
 [Läs här!](https://www.tutorialspoint.com/csharp/csharp_namespaces.htm)
 
+
+
 **Code-along:**  
 [L020_Namespaces_and_Using](https://github.com/everyloop/NET24-Csharp/blob/master/Code-alongs/L020_Namespaces_and_Using/Program.cs)
 
 ## Konstruktor
 
+[Läs här!](https://www.programiz.com/csharp-programming/constructors)
 
+**Code-along:**  
+[L021_Konstruktor](https://github.com/everyloop/NET24-Csharp/blob/master/Code-alongs/L021_Konstruktor/Program.cs)
 
+## Properties
+
+[Tutorial](https://www.w3schools.com/cs/cs_properties.php)
+
+**Code-along:**  
+[L022_Properties](https://github.com/everyloop/NET24-Csharp/blob/master/Code-alongs/L022_Properties/Program.cs)
 
