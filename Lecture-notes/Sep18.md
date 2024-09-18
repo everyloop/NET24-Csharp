@@ -24,6 +24,10 @@ Fields och properties kan betraktas som variabler knutna till en enskild instans
 
 Metoder är anropbar kod knutna till ett objekt.
 
+## this
+
+I C# används keyword "this" för att referera till den instans av klass som har anropat en av klassens metoder.
+
 ## Method overloading
 
 Flera metoder i en klass kan ha samma namn fast med olika (i antal eller typ) parametrar. Detta är en typ av polymorfism. (Poly = Många, Morph = Former). Med andra ord: Method overloading låter oss skapa flera olika former av samma metod. Vilken av implementationerna som faktiskt körs avgörs vid kompilering genom att kolla på vilka argument som skickas in vid anropet.
