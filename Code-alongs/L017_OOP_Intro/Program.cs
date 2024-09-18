@@ -1,7 +1,16 @@
 ﻿
-Cat myCat = new Cat() { name = "Pelle", age = 3 };
-Cat myOtherCat = new Cat() { name = "Måns", age = 5 };
+Cat myCat = new Cat(); // { name = "Pelle", age = 3 };
+myCat.name = "Pelle";
+myCat.age = 3;
+
+string input = Console.ReadLine();
+Cat myOtherCat = new Cat() { name = input, age = 5, mother = myCat };
 Cat myThirdCat = new Cat() { name = "Sven", age = 12 };
+
+myCat.mother = myOtherCat;
+
+Console.WriteLine(myCat.name);
+Console.WriteLine(myCat.mother.father.name);
 
 myOtherCat.Greet();
 myOtherCat.Greet("Fredrik");
@@ -13,6 +22,11 @@ class Cat
     public string name = "default name";
 
     public int age = 0;
+
+    //public Person owner;
+    public Cat mother;
+
+    public Cat father;
 
     public void Greet()
     {
