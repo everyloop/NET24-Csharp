@@ -46,3 +46,10 @@
     }
 
 }
+
+// I C# 9.0 introducerades dock top level statements, som gör att man kan ha en (1) fil i sitt projekt
+// där kod inte ligger i en klass. D.v.s filen med top level statement kan t.ex ha endast t.ex en
+// Console.Write() och ändå fungera; Det kompilatorn gör när den hittar top level statements är att
+// den automatisk skapar en klass med en Main metod vid kompilering och lägger alla top level statements
+// i denna. Det blir alltså ingen skillnad i det färdigbyggda programmet oavsett om man använder sig
+// av top level statements eller inte.
