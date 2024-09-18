@@ -37,3 +37,15 @@ Man kan använda [null-conditional operator](https://learn.microsoft.com/en-us/d
 ## Method overloading
 
 Flera metoder i en klass kan ha samma namn fast med olika (i antal eller typ) parametrar. Detta är en typ av polymorfism. (Poly = Många, Morph = Former). Med andra ord: Method overloading låter oss skapa flera olika former av samma metod. Vilken av implementationerna som faktiskt körs avgörs vid kompilering genom att kolla på vilka argument som skickas in vid anropet.
+
+## Static classes and members
+
+## Top level statements
+
+## Namespaces
+
+## Konstruktor
+
+
+
+
