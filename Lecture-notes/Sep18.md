@@ -28,6 +28,12 @@ Metoder är anropbar kod knutna till ett objekt.
 
 I C# används keyword "this" för att referera till den instans av klass som har anropat en av klassens metoder.
 
+## null
+
+Keyword null används som en literal value för att indikera att en referens inte pekar på något faktiskt objekt.
+
+Man kan använda [null-conditional operator](https://learn.microsoft.com/en-us/dotnet/csharp/language-reference/operators/member-access-operators#null-conditional-operators--and-) för att säkerställa att programmet inte krashar om referensen är null när man försöker komma åt en member.
+
 ## Method overloading
 
 Flera metoder i en klass kan ha samma namn fast med olika (i antal eller typ) parametrar. Detta är en typ av polymorfism. (Poly = Många, Morph = Former). Med andra ord: Method overloading låter oss skapa flera olika former av samma metod. Vilken av implementationerna som faktiskt körs avgörs vid kompilering genom att kolla på vilka argument som skickas in vid anropet.
