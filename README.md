@@ -18,7 +18,8 @@ Här hittar du code-along projekt från lektioner, lektionsanteckningar, samt [�
 | [Sep 11][Sep11] | Binary, Hexadecimal, Enheter/Prefix, ASCII, Unicode.  |
 | [Sep 12][Sep12] | Filhantering. Läsa och skriva filer.                  |
 | [Sep 16][Sep16] | Introduktion OOP: klasser och objekt.                 |
-| [Sep 18][Sep18] | OOP fördjupning. Konstruktor. Properties.              |
+| [Sep 18][Sep18] | OOP fördjupning. Konstruktor. Properties.             |
+| [Sep 19][Sep19] | Value types och Reference types. Stack och Heap.      |
 
 [Aug26]: https://github.com/everyloop/NET24-Csharp/blob/master/Lecture-notes/Aug26.md
 [Aug28]: https://github.com/everyloop/NET24-Csharp/blob/master/Lecture-notes/Aug28.md
@@ -31,3 +32,4 @@ Här hittar du code-along projekt från lektioner, lektionsanteckningar, samt [�
 [Sep12]: https://github.com/everyloop/NET24-Csharp/blob/master/Lecture-notes/Sep12.md
 [Sep16]: https://github.com/everyloop/NET24-Csharp/blob/master/Lecture-notes/Sep16.md
 [Sep18]: https://github.com/everyloop/NET24-Csharp/blob/master/Lecture-notes/Sep18.md
+[Sep19]: https://github.com/everyloop/NET24-Csharp/blob/master/Lecture-notes/Sep19.md
