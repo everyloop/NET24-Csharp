@@ -20,8 +20,8 @@
 |Felsöka|Debug|Hitta och eliminera buggar i koden.|Visual studio har inbyggda verktyg för att underlätta felsökning.|
 |Fält|Field|En variabel som deklareras direkt i en klass eller struct.|Fält är medlemsvariabler av den omgivande typen.|
 |GPU|GPU|En typ av processor som är optimerad för grafikrelaterade beräkningar.|**G**raphics **P**rocessing **U**nit|
-|Hakparantes|Brackets|Tecknen '[' (open bracket) och ']' (close bracket).|Används bland annat till indexering i C#|
-|Heap|Heap|Dynamiskt allokerat minne som lagrar instantierade objekt.|Minne allokeras varje gång ett nytt objekt skapas, och plockas upp av garbage collector när det inte behövs längre.|
+|Hakparantes|Brackets|Tecknen **[** (open bracket) och **]** (close bracket).|Används bland annat till indexering i C#|
+|Heap|Heap|Dynamiskt allokerat minne som lagrar instantierade objekt.|Minne allokeras varje gång ett nytt objekt skapas, och plockas upp av garbage collector när det inte längre behövs.|
 |IDE|IDE|**I**ntegrated **D**evelopment **E**nvironment|T.ex. Visual Studio|
 |IL-kod|IL code|Bytekod som .NET runtime vid körning JIT-kompilerar till maskinkod.|**I**ntermediate **L**anguage.|
 |Implementera|Implement|Realisera en algoritm eller teknisk specifikation i kod.||
@@ -31,11 +31,11 @@
 |Initiera|Initialize|Ge en variabel ett initialt värde (= första gången man ger en variabel ett värde)|Kan ske i samband med deklaration (int myInt = 4;) eller senare (int myInt; myInt = 4;)|
 |Instansiera|Instansiate|Att skapa ett nytt objekt av en given klass/typ.|Det görs med keyword new. Exempel: Person myPerson = new Person();|
 |Iterera|Iterate|Åstadkomma något genom upprepning.|Finare ord för loopa.|
-|JIT|JIT|**J**ust **I**n **T**ime. En kompileringsmetod som översätter IL till maskinkod under exekvering.|Varje metod kompileras då den anropas första gången, och resultatet sparas och används vi kommande anrop.|
+|JIT|JIT|**J**ust **I**n **T**ime. En kompileringsmetod som översätter IL till maskinkod under exekvering.|Varje metod kompileras då den anropas första gången, och resultatet sparas och används vid kommande anrop.|
 |Klass|Class|En klass definerar egenskaper och beteende för en given typ av objekt.|Exempel: Klassen "Person" beskriver hur objekt av typen Person fungerar/beter sig.|
 |Kompilator|Compiler|Program som översätter källkod till maskinkod.||
 |Kompilera|Compile|Översätta källkod till maskinkod, källkod till IL bytekod, eller IL till maskinkod.|Kör din kod i en kompilator för att kompilera den.|
-|Konkatenera|Concatenate|Slåihop en eller flera strängar|Ex. string newString = "Fredrik" + " " + "Johansson";|
+|Konkatenera|Concatenate|Slå ihop en eller flera strängar|Ex. string newString = "Fredrik" + " " + "Johansson";|
 |Konstruktor|Constructor|En metod som returnerar en instans av klassen den är definerad i.|Används för att initialisera fält och egenskaper när objekt skapas.|
 |Konvertera|Convert|Omvandla data från en datatyp till en annan.||
 |Källkod|Source code|Okompilerad kod.|T.ex C#-kod.|
@@ -43,17 +43,17 @@
 |Maskinkod|Machine code|Den binärkod som processorn (CPUn) kan tolka och exekvera.||
 |Medlem|Member|Klasser och structs har medlemmar som representerar deras data och beteende.|T.ex metoder, egenskaper, och fält.||
 |Metod|Method|Ett namngivet kodblock som anropas från andra delar av programmet.|Ex. Console.WriteLine();|
-|Måsvingar|Curly braces|Tecknen { och }	Används för att definera start och slut på kodblock i C#||
+|Måsvingar|Curly braces|Tecknen **{** och **}**	Används för att definera start och slut på kodblock i C#||
 |Namespace|Namespace|Används i .NET för att organisera klasser.|Ungefär som mappar används för att organisera filer.|
 |Objekt|Object|En endskild instans utav en given klass/typ.||
 |Parametrar|Parameters|Variabler deklarerade i metodsignatur. Indata till metod.|Se även argument.|
 |Polymorfism|Polymorphism|Beskriver att något kan anta flera olika former.|Overloading och overriding är exempel på poylmorfism.|
 |Progammeringsspråk|Progamming language|Språk som används av människor för att skapa datorprogram.|T.ex C#|
-|Pseudokod|Pseudo code|Ett icke programspråk-specifikt sätt att beskriva algoritmer|Hitte-på-kod|
+|Pseudokod|Pseudo code|Ett icke programspråk-specifikt sätt att beskriva algoritmer.|Hitte-på-kod|
 |Ramverk|Framework|Abstraktion inom programmering som tillhandahåller allmän funktionalitet.||
 |Refaktorering|Refactoring|Struktuera om existerande kod utan att förändra dess funktionalitet.|I syfte att göra koden mer lättläst och/eller enklare att vidareutveckla.|
-|Referenstyp|Reference type|En datatyp som lagrar en referens till det faktiska värdet/objektet.|Referenstyper lagras i heap. Dess referens kan dock lagras på stacken.|
-|Rekursivt anrop|Recursive call|En metod som anropar sig själv.|Om vilkor för att avsluta rekursiva anrop saknas kommer koden krasha i en stack overflow.|
+|Referenstyp|Reference type|En datatyp som lagrar en referens till det faktiska värdet/objektet.|Referenstyper lagras i heap. Referensen till dem kan dock lagras på stacken.|
+|Rekursivt anrop|Recursive call|En metod som anropar sig själv.|Om vilkor för att avbryta rekursiva anrop saknas kommer koden krasha i en stack overflow.|
 |Rendera|Render|Framställning av bild eller animation genom en algoritm / kod som körs på en dator.|Ex. Rendera 3D-grafik till en film eller TV-spel.|
 |Returvärde|Return value|Utdata från en metod.|Returvärde till den anropande koden.|
 |Runtime|Runtime|Komponent i .NET som kompilerar IL-kod och exekverar den.|Sköter bland annat minneshantering, typsäkerhet och undantagshantering.|
