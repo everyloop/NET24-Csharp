@@ -10,7 +10,7 @@
 |Arv|Inheritence|Beskriver att en klass ärver egenskaper och beteenden utav en annan klass.||
 |Binärt|Binary|Data representerad som en serie ettor och nollor.|Bygger på det binära talsytemet.|
 |Bugg|Bug|Felaktighet i program som gör att det krashar eller inte fungerar som man tänkt sig.|Bugg = Runtime error, eller logiska fel. (Syntaxfel är ingen bugg).|
-|Citattecken|Double quote|Tecknet **"**|Används i C# för ange litteralt värde för datatypen String|
+|Citattecken|Double quote|Tecknet **"** ibland även kallad dubbelfnutt på svenska.|Används i C# för ange litteralt värde för datatypen String|
 |CPU|CPU|Även kallad processor. Del i dator som exekverar (maskin)kod.|**C**ental **P**rocessing **U**nit|
 |Datatyp|Data type|Beskriver vilken typ av data som kan lagras i ett objekt / variabel|Ex. Int, String, Bool|
 |Deklarera|Declare|Innan man använder en variabel måste man deklarera dess namn och datatyp.|Ex: int myInt;   (Deklarera en variabel med namnet myInt av datatypen int)|
