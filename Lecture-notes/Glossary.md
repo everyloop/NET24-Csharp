@@ -61,6 +61,7 @@
 |Stack|Stack|Statiskt allokerat minne som lagrar lokala variabler samt returadresser vid anrop.|Minne allokeras när programmet startar, och deallokeras när programmet avslutas.|
 |Statisk|Static|En metod, egenskap eller klass som kan användas utan att instansieras.|Avser keyword static i C#|
 |Struct|Struct|En typdefinition som till skillnad från klasser definerar en värdetyp (value type).|Stucts kan inte ärva, men kan ha metoder, egenskaper och fält precis som klasser.|
+|Undantag|Exception|Meddelar att något gått fel, och lämnar över kontrollen till en annan del av koden.|Keywords: try, catch, finally, och throw.|
 |Uttryck|Expression|Ett matematiskt eller logiskt uttryck t.ex 3 + 5, eller x == 4.||
 |Variabel|Variable|En behållare för att lagra data som kan ändras under körning av program.|En variabel i C# har alltid en fast datatyp som inte kan ändras när programmet körs.|
 |Versionshantering|Version control|System där tidigare versioner och ändringar av filer kan spåras och återskapas.|Git är ett exempel på ett versionshanteringssystem.|
