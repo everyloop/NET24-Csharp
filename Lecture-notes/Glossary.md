@@ -3,7 +3,7 @@
 |Svenska|Engelska|Beskrivning|Kommentar|
 |-------|--------|-----------|---------|
 |Abstraktionsnivå|Level of abstraction|En hög abstraktionsnivå gömmer implementeringsdetaljer, medan en låg visar dem.||
-|Algoritm|Algorithm|En väldefinierat tillvägagångssätt (en uppsättning regler) för att lösa ett givet problem||
+|Algoritm|Algorithm|En väldefinierat tillvägagångssätt (en uppsättning regler) för att lösa ett givet problem.|Vanligt förekommande problem såsom sortering, sökning, och komprimering har mängder av välkända lösningar/algoritmer.|
 |Allokering|Allocation|En process för att reservera delar av datorns minne för ett specifikt syfte.|Ingår i det vidare begreppet minneshantering.|
 |Apostrof|Single quote|Tecknet **'** ibland även kallad enkelfnutt på svenska.|Används i C# för ange litteralt värde för datatypen Char|																						
 |Argument|Arguments|Data som skicka in i en metod vid metodanrop.|Se även parameter.|
