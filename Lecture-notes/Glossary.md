@@ -12,7 +12,7 @@
 |Bugg|Bug|Felaktighet i program som gör att det krashar eller inte fungerar som man tänkt sig.|Bugg = Runtime error, eller logiska fel. (Syntaxfel är ingen bugg).|
 |Citattecken|Double quote|Tecknet **"** ibland även kallad dubbelfnutt på svenska.|Används i C# för ange litteralt värde för datatypen String|
 |CPU|CPU|Även kallad processor. Del i dator som exekverar (maskin)kod.|**C**ental **P**rocessing **U**nit|
-|Datastruktur|Data structure|Strukturering av data, för att effektivt kunna läsa och skriva närbesläktad data.|Exempel på datastrukturer: array, lista, stack, kö, träd.|
+|Datastruktur|Data structure|Samling av närbesläktad data strukturerad för effektiv bearbetning.|Exempel på datastrukturer: array, lista, stack, kö, träd.|
 |Datatyp|Data type|Beskriver vilken typ av data som kan lagras i ett objekt / variabel|Ex. Int, String, Bool|
 |Deklarera|Declare|Innan man använder en variabel måste man deklarera dess namn och datatyp.|Ex: int myInt;   (Deklarera en variabel med namnet myInt av datatypen int)|
 |Egenskap|Property|En slags variabel som är en del av en klass eller objekt.|Ex: Console.ForegroundColor =  ConsoleColor.Black;|
