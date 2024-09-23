@@ -129,10 +129,10 @@ Shape.PrintCircles(shapes);
 
 Ovanstående ska skriva ut först alla shapes i arrayen, följt av blankrad, följt av alla circles i arrayen.
 
-# 11. Lägg till färger i PrintAll()
+## 11. Lägg till färger i PrintAll()
 Uppdatera PrintAll() i uppgift 10, så att alla rader med cirklar skrivs med röd färg och alla rader med kvadrater skrivs med grön färg.
 
-# 12. Random färger
+## 12. Random färger
 Lägg till följande i Shape
 
 ```cs
