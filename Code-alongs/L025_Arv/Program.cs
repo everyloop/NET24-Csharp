@@ -2,24 +2,67 @@
 //var animal = new Animal() { Name = "Heffaklump" };
 //animal.Run();
 
-Console.WriteLine();
+//Char myChar = 'A';
+//Console.WriteLine((int)myChar);
 
-var cat = new Cat() { Name = "Pelle" };
-cat.Run();
-cat.Mew();
-cat.Walk();
+//Cat myCat = new Cat() { Name = "Pelle" };
+//Animal myAnimal = myCat;
+//myAnimal.Run();
 
-Console.WriteLine();
+//long x = 5;
+//int y = (int)x;
 
-var dog = new Dog() { Name = "Fido" };
-dog.Run();
-dog.Bark();
-dog.Walk();
+
+
+Animal[] animals = new Animal[]
+{
+    new Dog() { Name = "Fido" },
+    new Cat() { Name = "Pelle" },
+    new Dog() { Name = "Bosse" },
+    new Cat() { Name = "Måns" }
+};
+
+foreach (var animal in animals)
+{
+    animal.Run();
+    animal.Walk();
+
+    (animal as Dog)?.Bark();
+    (animal as Cat)?.Mew();
+
+    /*
+    if (animal is Dog myDog)
+    {
+        myDog.Bark();
+        ((Dog)animal).Bark();
+        (animal as Dog).Bark();
+    }
+    else if (animal is Cat cat)
+    {
+        cat.Mew();
+    }
+    */
+
+    Console.WriteLine();
+}
+
+//Animal animal = new Cat() { Name = "Pelle" };
+//animal.Walk();
+
+//animal1.Run();
+////cat.Mew();
+
+//Console.WriteLine();
+
+//Animal animal2 = new Dog() { Name = "Fido" };
+//animal2.Run();
+////dog.Bark();
+//animal2.Walk();
 
 abstract class Animal
 {
-    required public string Name { get; set; }
-    public abstract void Run();
+   required public string Name { get; set; }
+   public abstract void Run();
 
     public virtual void Walk()
     {
