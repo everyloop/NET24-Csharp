@@ -49,9 +49,11 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "L018_Static_classes_and_mem
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "L022_Properties", "Code-alongs\L022_Properties\L022_Properties.csproj", "{3B804727-036E-4981-8AF2-C1F420D039B4}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "L023_Pass_by_value_vs_Pass by_reference", "Code-alongs\L023_Pass_by_value_vs_Pass by_reference\L023_Pass_by_value_vs_Pass by_reference.csproj", "{FBAA2603-B41A-4DF5-AAEC-E71A1E848EFD}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "L023_Pass_by_value_vs_Pass by_reference", "Code-alongs\L023_Pass_by_value_vs_Pass by_reference\L023_Pass_by_value_vs_Pass by_reference.csproj", "{FBAA2603-B41A-4DF5-AAEC-E71A1E848EFD}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "L024_Struct_och_Enum", "Code-alongs\L024_Struct_och_Enum\L024_Struct_och_Enum.csproj", "{4F8B4485-7B66-4568-97D8-C3F532C2D635}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "L024_Struct_och_Enum", "Code-alongs\L024_Struct_och_Enum\L024_Struct_och_Enum.csproj", "{4F8B4485-7B66-4568-97D8-C3F532C2D635}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "L025_Arv", "Code-alongs\L025_Arv\L025_Arv.csproj", "{DACD75AF-E73B-4E36-802B-CFFA1057873C}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -159,6 +161,10 @@ Global
 		{4F8B4485-7B66-4568-97D8-C3F532C2D635}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{4F8B4485-7B66-4568-97D8-C3F532C2D635}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{4F8B4485-7B66-4568-97D8-C3F532C2D635}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DACD75AF-E73B-4E36-802B-CFFA1057873C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DACD75AF-E73B-4E36-802B-CFFA1057873C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DACD75AF-E73B-4E36-802B-CFFA1057873C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DACD75AF-E73B-4E36-802B-CFFA1057873C}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
