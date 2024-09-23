@@ -12,6 +12,9 @@ Arv är en is-a-relationship, vilket betyder att ett objekt av typen Cat, även 
 
 [Läs mer om arv här!](https://learn.microsoft.com/en-us/dotnet/csharp/fundamentals/tutorials/inheritance)
 
+**Code-along:**  
+[L025_Arv](https://github.com/everyloop/NET24-Csharp/blob/master/Code-alongs/L025_Arv/Program.cs)
+
 ## Polymorfism
 
 Polymorfism betyder "många former", och som namnet antyder så betyder det att vi kan ha flera olika versioner av t.ex metoder i vår kod, och att "rätt" metod väljs när vi gör ett anrop.
