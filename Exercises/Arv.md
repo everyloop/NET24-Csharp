@@ -4,6 +4,8 @@
 Skapa en enum Brand med 5 bilmärken, och en enum Color med 5 färger. Skriv sedan en klass Vehicle som har publika properties Brand och Color. Klassen ska ha en konstruktor som man kan använda för att sätta Brand och Color, och en konstruktor som endast tar Brand och sätter en default färg.
 
 ## 2. Lägg till override för ToString()
+ToString() är en metod som alla klasser ärver från System.Object. Denna metod anropas implicit när man skickar in ett objekt till Console.WriteLine, eller använder ett objekt i en konkatenering (t.ex en interpolation string). Implementationen i System.Object är sådan att den bara skriver ut objektets datatyp, men din klass kan göra en override på ToString() och returnera en sträng i vilket format du vill.
+
 Gör en override på ToString() i Vehicle-klassen, så att "A white Toyota" skrivs ut om man kör följande kod:
 
 ```cs
