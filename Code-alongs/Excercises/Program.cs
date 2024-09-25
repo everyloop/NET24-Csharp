@@ -1,4 +1,5 @@
-﻿using System.Diagnostics.Metrics;
+﻿
+using System.Runtime.InteropServices;
 
 static void Variabler7()
 {
@@ -82,4 +83,17 @@ static void indexes10()
     }
 }
 
-indexes10();
+// Skapa en enum Brand med 5 bilmärken, och en enum Color med 5 färger.
+// Skriv sedan en klass Vehicle som har publika properties Brand och Color.
+// Klassen ska ha en konstruktor som man kan använda för att sätta Brand och Color,
+// och en konstruktor som endast tar Brand och sätter en default färg.
+
+
+static void Arv1()
+{
+    Vehicle myVehicle = new Vehicle(Brand.Saab);
+    Console.WriteLine(new Vehicle(color: Color.Red, brand: Brand.Porsche));
+}
+
+Arv1();
+
