@@ -5,27 +5,30 @@
 ### Namngivning
 Att ge tydliga och beskrivande namn på variabler, metoder, funktioner, klasser etc, är en av de viktigaste sakerna man kan göra för att göra koden mer lättläst.
 
-Enhetligt.
+**Enhetligt**  
+Blanda inte svenska/engelska.  
+Blanda inte kodkonventioner. T.ex vissa variabler i PascalCase och andra i camelCase.
+Använd inte olika begrepp för samma sak. T.ex. studentName/numberOfPupils
 
-Verb för namn på metoder/funktioner
-
-Substantiv för namn på variabler/objekt/klass.
-singular för enskilda variabler, plural på collections (ex: array, lista, stack).
-
-string name;
-string[] names;
+**Verb för namn på metoder/funktioner**  
 static string GetName();
 
-**Unvik namn som är nästan lika**
-public double[] CalculateAreaForAll(Circle[] circles);
+**Substantiv för namn på variabler/objekt/klass**  
+singular för enskilda variabler, plural på collections (ex: array, lista, stack).
+
+string city;  
+string[] cities;
+
+**Unvik namn som är förvirrande lika**  
+public double[] CalculateAreaForAll(Circle[] circles);  
 public double[] CalculatedAreaForAll(Circle[] circles);
 
-**Namn som går att uttala**
-xdf98d
+**Namn som går att uttala**  
+Det är svårt att kommunicera sin kod i samtal om variabler heter t.ex. xdf98d
 
 **Clarity over entertainment value**
 
-FarenheitToCelsius
+Farenheit2Celsius
 
 **Case**
 camelCase   I c# på lokala variabler och parameterar (till metoder/funktioner)
