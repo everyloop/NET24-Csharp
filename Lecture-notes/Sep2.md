@@ -95,5 +95,6 @@ Kommentarer bör endast förklara varför, inte hur.
 ### Namngivning
 Att ge tydliga och beskrivande namn på variabler, metoder, funktioner, klasser etc, är en av de viktigaste sakerna man kan göra för att göra koden mer lättläst.
 
+[Vi fortsätter prata om detta 25:e September](https://github.com/everyloop/NET24-Csharp/blob/master/Lecture-notes/Sep25.md)
 
 
