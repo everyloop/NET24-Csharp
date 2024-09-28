@@ -21,6 +21,8 @@ Här hittar du code-along projekt från lektioner, lektionsanteckningar, [ordlis
 | [Sep 18][Sep18] | OOP fördjupning. Konstruktor. Properties.             |
 | [Sep 19][Sep19] | Value types och Reference types. Stack och Heap.      |
 | [Sep 23][Sep23] | Arv & Polymorfism.                                    |
+| [Sep 25][Sep25] | Clean Code.                                           |
+| [Sep 26][Sep26] | Generiska klasser och metoder. Genric collections.    |
 
 [Aug26]: https://github.com/everyloop/NET24-Csharp/blob/master/Lecture-notes/Aug26.md
 [Aug28]: https://github.com/everyloop/NET24-Csharp/blob/master/Lecture-notes/Aug28.md
@@ -35,3 +37,5 @@ Här hittar du code-along projekt från lektioner, lektionsanteckningar, [ordlis
 [Sep18]: https://github.com/everyloop/NET24-Csharp/blob/master/Lecture-notes/Sep18.md
 [Sep19]: https://github.com/everyloop/NET24-Csharp/blob/master/Lecture-notes/Sep19.md
 [Sep23]: https://github.com/everyloop/NET24-Csharp/blob/master/Lecture-notes/Sep23.md
+[Sep25]: https://github.com/everyloop/NET24-Csharp/blob/master/Lecture-notes/Sep25.md
+[Sep26]: https://github.com/everyloop/NET24-Csharp/blob/master/Lecture-notes/Sep26.md

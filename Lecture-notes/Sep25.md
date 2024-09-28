@@ -30,15 +30,16 @@ Det är svårt att kommunicera sin kod i samtal om variabler heter t.ex. xdf98d
 
 Farenheit2Celsius
 
-**Case**
-camelCase   I c# på lokala variabler och parameterar (till metoder/funktioner)
-PascalCase  I c# på allt annat (t.ex klasser, metoder, properties)
-kebab-case  Använd ej i c#
-snake_case  Använd ej i c#
+**Case**  
+*camelCase*   I c# på lokala variabler och parameterar (till metoder/funktioner)  
+*PascalCase*  I c# på allt annat (t.ex klasser, metoder, properties)  
+*kebab-case*  Använd ej i c#  
+*snake_case*  Använd ej i c#  
 
-**Namngivning av bool**
-Variabler av typ bool börjar ofta med is/are/has.
-
+**Namngivning av bool**  
+Variabler av typ bool börjar ofta med is/are/has.  
+D.v.s antyder att alternativen är true/false.  
+Ex: isReady
 ### Magiska nummer
 
 int numberOfDays
