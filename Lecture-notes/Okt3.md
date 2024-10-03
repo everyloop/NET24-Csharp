@@ -14,9 +14,18 @@ Några användbara metoder är till exempel:
 
 **all** används för att kolla om *alla* elementen i en collection uppfyller ett givet vilkor; returnerar true/false.
 
-**where** används för att filtrerar ut alla element som uppfyller ett givet vilkor; returnerar en IEnumerable som kan användas för deferred execution, eller omvandlas till t.ex en array eller lista.
+**where** används för att filtrera ut alla element som uppfyller ett givet vilkor; returnerar en IEnumerable som kan användas för deferred execution, eller omvandlas till t.ex en array eller lista.
 
-**select** används för att skapa nya element utifrån ett givet vilkor; returnerar en IEnumerable som kan användas för deferred execution, eller omvandlas till t.ex en array eller lista.
+**select** används för att projicera (transformera) data för varje element utifrån ett givet vilkor; returnerar en IEnumerable som kan användas för deferred execution, eller omvandlas till t.ex en array eller lista.
 
 **Code-along:**  
 [L039_LINQ](https://github.com/everyloop/NET24-Csharp/blob/master/Code-alongs/L039_LINQ/Program.cs)
+
+## Deferred execution
+
+[Läs här!](https://www.tutorialsteacher.com/linq/linq-deferred-execution)
+
+[Yield return](https://www.kenneth-truyers.net/2016/05/12/yield-return-in-c/)
+
+**Code-along:**  
+[L040_Yield_Return](https://github.com/everyloop/NET24-Csharp/blob/master/Code-alongs/L040_Yield_Return/Program.cs)
