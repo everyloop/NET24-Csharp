@@ -40,7 +40,9 @@ Console.WriteLine($"{"stringList2.Any(s => s.ToLower() == \"hej\")", -50} {strin
 Console.WriteLine($"{"stringList2.Any(s => s.Split(' ').Length == 3)", -50} {stringList2.Any(s => s.Split(' ').Length == 3)}");
 Console.WriteLine($"{"stringList2.All(s => s.StartsWith('B'))", -50} {stringList2.All(s => s.StartsWith('B'))}" );
 
+
 Console.WriteLine("\n*** Where **********\n");
+
 Console.WriteLine("var stringList3 = stringList2.Where(s => s.Length >= 3 && s.Length <= 7).ToList();\n");
 
 var stringList3 = stringList2.Where(s => s.Length >= 3 && s.Length <= 7).ToList();
@@ -48,11 +50,13 @@ var stringList3 = stringList2.Where(s => s.Length >= 3 && s.Length <= 7).ToList(
 Console.WriteLine("stringList3 content:");
 Console.WriteLine(string.Join('\n', stringList3));
 
+// Exempel på hur Where skulle kunna användas på objekt i labb 2:
 // List<enemy> enemies;
 // foreach (var enemy in enemies.Where<enemy>(e => e.HP < 5 && e.Name == 'rat'))
 // {
 //    Console.WriteLine(enemy.HP);
 // }
+
 
 Console.WriteLine("\n*** Select **********\n");
 
@@ -77,20 +81,23 @@ var people2 = people
 people2.ForEach(p => Console.WriteLine($"The email for {p.Name} is {p.Email}"));
 
 
-Console.WriteLine("\n*** Query syntax **********\n");
+Console.WriteLine("\n*** Deferred execution **********\n");
 
-var query = from p in people where p.Age >= 40 select p.Age;
-//var methodSyntax = people.Where(p => p.Age >= 40).Select(p => p.FirstName);
+// Example of query syntax:
+var querySyntax = from p in people where p.Age >= 40 select p.Age;
 
-foreach (var age in query)
+// Same example using method syntax:
+var methodSyntax = people.Where(p => p.Age >= 40).Select(p => p.Age);
+
+foreach (var age in querySyntax)
 {
     Console.WriteLine(age);
 }
 
-Console.WriteLine("\nAdd person to people\n");
+Console.WriteLine("\nAdd person to people. Rerun query.\n");
 people.Add(new { LastName = "Palm", FirstName = "Lisa", Age = 45 });
 
-foreach (var age in query)
+foreach (var age in querySyntax)
 {
     Console.WriteLine(age);
 }
