@@ -25,6 +25,7 @@ Här hittar du code-along projekt från lektioner, lektionsanteckningar, [ordlis
 | [Sep 26][Sep26] | Generiska klasser och metoder. Genric collections.    |
 | [Sep 30][Sep30] | Delegates & Event.                                    |
 | [Okt 2][Okt2] | Lambda, Anonymous types, Extension method, Interface.   |
+| [Okt 3][Okt3] | Language Integrated Queries (LINQ)                      |
 
 [Aug26]: https://github.com/everyloop/NET24-Csharp/blob/master/Lecture-notes/Aug26.md
 [Aug28]: https://github.com/everyloop/NET24-Csharp/blob/master/Lecture-notes/Aug28.md
@@ -43,3 +44,4 @@ Här hittar du code-along projekt från lektioner, lektionsanteckningar, [ordlis
 [Sep26]: https://github.com/everyloop/NET24-Csharp/blob/master/Lecture-notes/Sep26.md
 [Sep30]: https://github.com/everyloop/NET24-Csharp/blob/master/Lecture-notes/Sep30.md
 [Okt2]: https://github.com/everyloop/NET24-Csharp/blob/master/Lecture-notes/Okt2.md
+[Okt3]: https://github.com/everyloop/NET24-Csharp/blob/master/Lecture-notes/Okt3.md
