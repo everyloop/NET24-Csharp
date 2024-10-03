@@ -8,7 +8,7 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\Code-alongs\L037_Library\L037_Library.csproj" />
+    <ProjectReference Include="..\L037_Library\L037_Library.csproj" />
   </ItemGroup>
 
 </Project>
