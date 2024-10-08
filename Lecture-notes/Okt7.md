@@ -1,6 +1,6 @@
 # Oktober 7
 
-**Lecture slide:**
+**Lecture slide:**  
 [Asynchronus.pdf](https://github.com/everyloop/NET24-Csharp/blob/master/Resources/Asynchronus.pdf)
 
 ## Multithreading
@@ -28,13 +28,13 @@ Parallell LINQ (PLINQ) är en parallell implementering av LINQ (Language-Integra
 **Code-along:**  
 [L041_PLINQ](https://github.com/everyloop/NET24-Csharp/blob/master/Code-alongs/L041_PLINQ/Program.cs)
 
-## Task och Task<TResult>
+## Task och Task\<TResult\>
 
-En datatyp som representerar en operation som kommer att bli klar någon gång i framtiden (d.v.s senare under programmets körning) kallas allmänt för en "future" eller "promise". De moderna "future"-typerna i .NET är Task och Task<TResult>
+En datatyp som representerar en operation som kommer att bli klar någon gång i framtiden (d.v.s senare under programmets körning) kallas allmänt för en "future" eller "promise". De moderna "future"-typerna i .NET är Task och Task\<TResult\>
 
-**Task** representar en operation som inte returnerar något värde när den är klar.
+**Task** representerar en operation som inte returnerar något värde när den är klar.
 
-**Task<TResult>** representer en operation som kommer returnera ett värde av typ TResult.
+**Task\<TResult\>** representerar en operation som kommer returnera ett värde av typ TResult.
 
 **Code-along:**  
 [L042_Tasks](https://github.com/everyloop/NET24-Csharp/blob/master/Code-alongs/L042_Tasks/Program.cs)
