@@ -1,5 +1,8 @@
 # September 30
 
+**Lecture slide:**  
+[Delegates.pdf](https://github.com/everyloop/NET24-Csharp/blob/master/Resources/Delegates.pdf)
+
 ## Delegat
 
 Delegat är en typ som representerar referenser till metoder med en viss parameterlista och returtyp. När du instansierar ett delegat kan du associera dess instans med valfri metod som har en kompatibel signatur och returtyp. Du kan sedan anropa metoden via delegatinstansen.

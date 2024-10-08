@@ -1,5 +1,8 @@
 # September 16
 
+**Lecture slide:**  
+[OOP.pdf](https://github.com/everyloop/NET24-Csharp/blob/master/Resources/OOP.pdf)
+
 ## Object oriented programming (OOP)
 
 **Video:**

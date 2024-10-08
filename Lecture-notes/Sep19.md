@@ -1,5 +1,8 @@
 # September 19
 
+**Lecture slide:**  
+[ValueAndReferenceTypes.pdf](https://github.com/everyloop/NET24-Csharp/blob/master/Resources/ValueAndReferenceTypes.pdf)
+
 ## Stack & Heap
 
 För att förstå minnes hantering i C#, och därmed bättre förstå value- och reference types, pass-by-value, pass-by-reference, och när man bör använda vad, så kan det vara en god idé att först förstå skillnaden på stack och heap.

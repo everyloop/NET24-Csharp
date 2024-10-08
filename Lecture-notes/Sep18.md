@@ -2,6 +2,9 @@
 
 Repetition och fördjuping av objektorienterad programmering.
 
+**Lecture slide:**  
+[OOP.pdf](https://github.com/everyloop/NET24-Csharp/blob/master/Resources/OOP.pdf)
+
 ## Klass
 
 En klass är en definition av en datatyp.

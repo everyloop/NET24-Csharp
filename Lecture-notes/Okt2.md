@@ -1,5 +1,8 @@
 # Oktober 2
 
+**Lecture slide:**  
+[Delegates.pdf](https://github.com/everyloop/NET24-Csharp/blob/master/Resources/Delegates.pdf)
+
 ## Lambda expressions
 
 Lambda-uttryck används för att skapa anonyma metoder.

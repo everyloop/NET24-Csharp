@@ -1,5 +1,8 @@
 # September 23
 
+**Lecture slide:**  
+[OOP.pdf](https://github.com/everyloop/NET24-Csharp/blob/master/Resources/OOP.pdf)
+
 ## Arv
 
 Arv är ett av de grundläggande attributen för objektorienterad programmering. Du kan definiera en underordnad klass som återanvänder (ärver), utökar eller ändrar beteendet för en överordnad klass. Klassen vars medlemmar ärvs kallas för basklassen. Klassen som ärver medlemmarna i basklassen kallas för den härledda klassen.

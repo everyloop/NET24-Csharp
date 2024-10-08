@@ -1,5 +1,8 @@
 # Oktober 3
 
+**Lecture slide:**  
+[Delegates.pdf](https://github.com/everyloop/NET24-Csharp/blob/master/Resources/Delegates.pdf)
+
 ## Language Integrated Queries (LINQ)
 
 LINQ lägger till funktionalitet för databehandling på IEnumerable interfacet med hjälp av extension methods. Det betyder att alla typer som implementerar IEnumberable, så som t.ex arrayer och listor, får ett gäng nya metoder för att enkelt göra operationer på hela datamängden i en collection.
