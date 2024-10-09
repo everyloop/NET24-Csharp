@@ -1,4 +1,6 @@
 ﻿
+using System.Threading.Tasks;
+
 internal class Program
 {
     private static void Main(string[] args)
@@ -53,3 +55,39 @@ internal class Program
         //}
     }
 }
+
+// Example of starting task with two sequential continuation.
+//Task.Run(() => {
+//    // ...
+//    return "Hello";
+//})
+//.ContinueWith(task => {
+//    // ... kod
+//    Console.WriteLine(task.Result);
+//    return task.Result[0];
+//})
+//.ContinueWith(task => {
+//     // ... kod
+//     Console.WriteLine(task.Result);
+// });
+
+// ********************************
+
+// Same as above, but storing each task in a varaible instead of using method chaining.
+//Task<string> task1 = Task.Run(() => {
+//    // ...
+//    return "Hello";
+//});
+
+//Task<char> task2 = task1.ContinueWith(task => {
+//    // ... kod
+//    Console.WriteLine(task.Result);
+//    return task.Result[0];
+//});
+
+//Console.WriteLine(task2.Status);
+
+//task2.ContinueWith(task => {
+//    // ... kod
+//    Console.WriteLine(task.Result);
+//});
