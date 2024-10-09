@@ -42,3 +42,12 @@ Skriv ut alla personer (från uppgift 1) sortera efter ålder; från äldst till
 Efter .OrderBy eller .OrderByDescending() kan man använda .ThenBy() och .ThenByDescending() för att sortera på något annat i andra hand (om flera objekt har samma värden i första sorteringen).
 
 Skriv ut alla personer (från uppgift 1) sorterade på efternamn i stigande ordning (A -> Z). Om flera personer har samma efternamn, sortera dessa på förnamn i fallande ordning (Z -> A).
+
+## 13. LINQ vs PLINQ
+Använd Enumerable.Range() för att skapa en sekvens av tal från 1 upp till 1 miljard. Filtrera sedan sekvensen på så vis att du får endast de tal som är jämnt delbara med 3 eller 5. Beräkna summan av talen.
+
+**OBS!** Använd inte ToList() ovan, då detta till skillnad från Enumerable faktiskt skapar upp alla tal i minnet.
+
+Sätt breakpoints i din kod och använd debuggern för att kolla hur lång tid det tar att exekvera.
+
+Prova sedan att köra samma beräkning som parallell LINQ; jämför tiden det tar att exekvera.
