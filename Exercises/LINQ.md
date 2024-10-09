@@ -28,7 +28,8 @@ Filtrera arrayen (från uppgift 1) så att du endast får med personer med BMI u
 ## 8. Username tillsammans med Category 
 Skapa en ny lista från arrayen (i uppgift 1) som innehåller objekt med properties Username (förnamnet + åldern, ex. “Kalle23”), samt Category (som har värdet “Child” eller “Adult” beroende på om personen är under 18 eller inte).
 
-## 9. Lös alla uppgifter 2 - 8 med query-syntax (om du använt method-syntax, annars tvärtom).
+## 9. Query syntax
+Lös alla uppgifter 2 - 8 med query-syntax (om du använt method-syntax, annars tvärtom).
 
 ## 10. Sortera efter längd
 LINQ använder metoderna .OrderBy() och .OrderByDescending() för att sortera data.
