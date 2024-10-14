@@ -17,18 +17,36 @@ namespace L047_Intro_WPF
     /// </summary>
     public partial class MainWindow : Window
     {
+        private int counter = 1;
+
         public MainWindow()
         {
             InitializeComponent();
-            //Button button = new Button() { Content = "Hello" };
-            //button.Content = "Hello";
-            //button.HorizontalAlignment = HorizontalAlignment.Left;
 
-            var stackPanel = new StackPanel();
+        }
 
-            stackPanel.Children.Add(new Button());
-            stackPanel.Children.Add(new Label());
+        private void Button_Click(object sender, RoutedEventArgs e)
+        {
+            Button button = (sender as Button);
 
+            //MessageBox.Show($"Du klickade på knapp '{button.Content}'");
+
+            button.HorizontalAlignment = button.HorizontalAlignment == HorizontalAlignment.Right
+                ? HorizontalAlignment.Left
+                : HorizontalAlignment.Right;
+
+            Button newButton = new Button() { Content = counter++, Width = 50, Margin = new Thickness(0, 10, 10, 10) };
+            myStackPanel.Children.Add(newButton);
+
+        }
+
+        private void ButtonClick1(object sender, RoutedEventArgs e)
+        {
+            Button button = (sender as Button);
+
+            //button.Visibility = Visibility.Hidden;
+            
+            button1.IsEnabled = !button1.IsEnabled;
         }
     }
 }
