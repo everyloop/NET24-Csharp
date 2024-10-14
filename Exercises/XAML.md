@@ -38,6 +38,6 @@
 
 ## 8. Formulär för studenter
 
-<img src="https://github.com/everyloop/NET24-Csharp/blob/master/Exercises/Images/XAMLDesign7.png" alt="XAMLDesign8" width="400"/>
+<img src="https://github.com/everyloop/NET24-Csharp/blob/master/Exercises/Images/XAMLDesign8.png" alt="XAMLDesign8" width="400"/>
 
 *Tips: Använd \<ListBox\> och \<ListBoxItem\>*
