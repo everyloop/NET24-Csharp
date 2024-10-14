@@ -11,3 +11,4 @@
 [Arv](https://github.com/everyloop/NET24-Csharp/blob/master/Exercises/Arv.md)  
 [Delegat och Lambda](https://github.com/everyloop/NET24-Csharp/blob/master/Exercises/Delegat.md)  
 [LINQ](https://github.com/everyloop/NET24-Csharp/blob/master/Exercises/LINQ.md)  
+[XAML](https://github.com/everyloop/NET24-Csharp/blob/master/Exercises/XAML.md)  
