@@ -31,3 +31,7 @@
 <img src="https://github.com/everyloop/NET24-Csharp/blob/master/Exercises/Images/XAMLDesign6.png" alt="XAMLDesign6" width="400"/>
 
 *Tips: Använd \<Grid\>*
+
+## 6. Formulär i rutnät
+
+<img src="https://github.com/everyloop/NET24-Csharp/blob/master/Exercises/Images/XAMLDesign7.png" alt="XAMLDesign7" width="400"/>
