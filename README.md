@@ -27,6 +27,9 @@ Här hittar du code-along projekt från lektioner, lektionsanteckningar, [ordlis
 | [Okt 2][Okt2] | Lambda, Anonymous types, Extension method, Interface.   |
 | [Okt 3][Okt3] | Language Integrated Queries (LINQ).                     |
 | [Okt 7][Okt7] | Multithreading, Threadpool, Task & Task\<TResult\>, PLINQ.|
+| [Okt 9][Okt9] | Async & Await. Thread safety                            |
+| [Okt 10][Okt10] | Design principer: SOLID                               |
+| [Okt 14][Okt14] | Intro WPF & XAML                                      |
 
 [Aug26]: https://github.com/everyloop/NET24-Csharp/blob/master/Lecture-notes/Aug26.md
 [Aug28]: https://github.com/everyloop/NET24-Csharp/blob/master/Lecture-notes/Aug28.md
@@ -47,3 +50,6 @@ Här hittar du code-along projekt från lektioner, lektionsanteckningar, [ordlis
 [Okt2]: https://github.com/everyloop/NET24-Csharp/blob/master/Lecture-notes/Okt2.md
 [Okt3]: https://github.com/everyloop/NET24-Csharp/blob/master/Lecture-notes/Okt3.md
 [Okt7]: https://github.com/everyloop/NET24-Csharp/blob/master/Lecture-notes/Okt7.md
+[Okt9]: https://github.com/everyloop/NET24-Csharp/blob/master/Lecture-notes/Okt9.md
+[Okt10]: https://github.com/everyloop/NET24-Csharp/blob/master/Lecture-notes/Okt10.md
+[Okt14]: https://github.com/everyloop/NET24-Csharp/blob/master/Lecture-notes/Okt14.md
