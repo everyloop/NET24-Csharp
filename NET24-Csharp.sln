@@ -95,7 +95,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "L044_Race_Condition", "Code
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "L045_Deadlock", "Code-alongs\L045_Deadlock\L045_Deadlock.csproj", "{66604842-713A-4E20-AAA8-82EF21D067C2}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "L046_SOLID", "Code-alongs\L046_SOLID\L046_SOLID.csproj", "{795040A1-0A77-4163-950C-5547F009C1AB}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "L046_SOLID", "Code-alongs\L046_SOLID\L046_SOLID.csproj", "{795040A1-0A77-4163-950C-5547F009C1AB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "L047_Intro_WPF", "Code-alongs\L047_Intro_WPF\L047_Intro_WPF.csproj", "{B483D13F-7C7B-4400-90ED-A11402612D9B}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -291,6 +293,10 @@ Global
 		{795040A1-0A77-4163-950C-5547F009C1AB}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{795040A1-0A77-4163-950C-5547F009C1AB}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{795040A1-0A77-4163-950C-5547F009C1AB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B483D13F-7C7B-4400-90ED-A11402612D9B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B483D13F-7C7B-4400-90ED-A11402612D9B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B483D13F-7C7B-4400-90ED-A11402612D9B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B483D13F-7C7B-4400-90ED-A11402612D9B}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
