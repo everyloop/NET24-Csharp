@@ -13,3 +13,15 @@
 ## 3. Tre centrerade knappar
 
 <img src="https://github.com/everyloop/NET24-Csharp/blob/master/Exercises/Images/XAMLDesign3.png" alt="XAMLDesign1" width="400"/>
+
+*Tips: Använd StackPanel.*
+
+## 4. Tre centrerade knappar... åt andra hållet!
+
+<img src="https://github.com/everyloop/NET24-Csharp/blob/master/Exercises/Images/XAMLDesign4.png" alt="XAMLDesign1" width="400"/>
+
+## 5. Formulär
+
+<img src="https://github.com/everyloop/NET24-Csharp/blob/master/Exercises/Images/XAMLDesign5.png" alt="XAMLDesign1" width="400"/>
+
+*Tips: Använd \<TextBox\> och \<Label\>.*
