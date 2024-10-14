@@ -32,6 +32,12 @@
 
 *Tips: Använd \<Grid\>*
 
-## 6. Formulär i rutnät
+## 7. Formulär i rutnät
 
 <img src="https://github.com/everyloop/NET24-Csharp/blob/master/Exercises/Images/XAMLDesign7.png" alt="XAMLDesign7" width="400"/>
+
+## 8. Formulär för studenter
+
+<img src="https://github.com/everyloop/NET24-Csharp/blob/master/Exercises/Images/XAMLDesign7.png" alt="XAMLDesign8" width="400"/>
+
+*Tips: Använd \<ListBox\> och \<ListBoxItem\>*
