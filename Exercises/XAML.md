@@ -4,3 +4,6 @@
 
 ## 1. Centrerad knapp
 
+![XAMLDesign1](https://github.com/everyloop/NET24-Csharp/blob/master/Exercises/Images/XAMLDesign1.png)
+
+## 2. 
