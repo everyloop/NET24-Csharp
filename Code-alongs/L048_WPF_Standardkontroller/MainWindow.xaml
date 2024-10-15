@@ -21,11 +21,15 @@
                     HorizontalAlignment="Stretch"
                     Width="100"
                     Margin="10, 10, 10, 0"
+                    TabIndex="2"
+                    IsTabStop="False"
                     Click="Button_Click"/>
 
             <TextBox x:Name="textBox" 
                      Text="Sample text"
                      Margin="10, 10, 10, 0"
+                     TabIndex="1"
+                     IsTabStop="False"
                      KeyDown="textBox_KeyDown"/>
 
             <TextBox x:Name="textBox2" 
@@ -68,6 +72,25 @@
                     IsSnapToTickEnabled="False"
                     Margin="10, 10, 10, 0"
                     ValueChanged="slider_ValueChanged"/>
+
+            <ComboBox x:Name="comboBox"
+                      SelectedIndex="0"
+                      Margin="10, 10, 10, 0"
+                      ToolTip="Select your language"                      
+                      SelectionChanged="comboBox_SelectionChanged">
+                <!--<ComboBoxItem>English</ComboBoxItem>
+                <ComboBoxItem>Swedish</ComboBoxItem>-->
+            </ComboBox>
+
+            <ListBox x:Name="listBox"
+                     SelectionMode="Extended"
+                     Margin="10, 10, 10, 0">
+                <ListBoxItem>Sweden</ListBoxItem>
+                <ListBoxItem>Norway</ListBoxItem>
+                <ListBoxItem>Denmark</ListBoxItem>
+                <ListBoxItem>Finland</ListBoxItem>
+            </ListBox>
+            
         </WrapPanel>
     </Grid>
 </Window>

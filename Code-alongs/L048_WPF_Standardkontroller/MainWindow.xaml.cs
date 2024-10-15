@@ -21,11 +21,22 @@ namespace L048_WPF_Standardkontroller
         public MainWindow()
         {
             InitializeComponent();
+
+            comboBox.Items.Clear();
+            comboBox.Items.Add(new Language("English", "Engelska"));
+            comboBox.Items.Add(new Language("Swedish", "Svenska"));
+            comboBox.DisplayMemberPath = "SwedishName";
+
+            //listBox.Items.Clear();
+            listBox.Items.Add("Spain");
         }
 
         private void Button_Click(object sender, RoutedEventArgs e)
         {
             myLabel.Content = textBox.Text;
+            
+            var language = new Language( textBox.Text, textBox2.Text );
+            comboBox.Items.Add(language);
         }
 
         private void textBox2_TextChanged(object sender, TextChangedEventArgs e)
@@ -73,7 +84,27 @@ namespace L048_WPF_Standardkontroller
         private void slider_ValueChanged(object sender, RoutedPropertyChangedEventArgs<double> e)
         {
             myLabel.Content = slider.Value.ToString("N2");
-       
         }
+
+        private void comboBox_SelectionChanged(object sender, SelectionChangedEventArgs e)
+        {
+            //Language language = comboBox.SelectedItem as Language;
+            Language? language = comboBox.Items[comboBox.SelectedIndex] as Language;
+
+            textBox.Text = language.EnglishName;
+            textBox2.Text = language.SwedishName;
+        }
+    }
+
+    public class Language
+    {
+        public Language(string englishName, string swedishName)
+        {
+            EnglishName = englishName;
+            SwedishName = swedishName;
+        }
+
+        public string EnglishName { get; set; }
+        public string SwedishName { get; set; }
     }
 }
