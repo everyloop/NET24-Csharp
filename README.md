@@ -30,6 +30,7 @@ Här hittar du code-along projekt från lektioner, lektionsanteckningar, [ordlis
 | [Okt 9][Okt9] | Async & Await. Thread safety                            |
 | [Okt 10][Okt10] | Design principer: SOLID                               |
 | [Okt 14][Okt14] | Intro WPF & XAML                                      |
+| [Okt 15][Okt15] | WPF Standardkontroller, Dialog boxes                  |
 
 [Aug26]: https://github.com/everyloop/NET24-Csharp/blob/master/Lecture-notes/Aug26.md
 [Aug28]: https://github.com/everyloop/NET24-Csharp/blob/master/Lecture-notes/Aug28.md
@@ -53,3 +54,4 @@ Här hittar du code-along projekt från lektioner, lektionsanteckningar, [ordlis
 [Okt9]: https://github.com/everyloop/NET24-Csharp/blob/master/Lecture-notes/Okt9.md
 [Okt10]: https://github.com/everyloop/NET24-Csharp/blob/master/Lecture-notes/Okt10.md
 [Okt14]: https://github.com/everyloop/NET24-Csharp/blob/master/Lecture-notes/Okt14.md
+[Okt15]: https://github.com/everyloop/NET24-Csharp/blob/master/Lecture-notes/Okt15.md
