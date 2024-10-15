@@ -25,13 +25,55 @@ namespace L048_WPF_Standardkontroller
 
         private void Button_Click(object sender, RoutedEventArgs e)
         {
-            var newButton = new Button() { 
-                Content = $"Button{wrapPanel.Children.Count}", 
-                Margin = new Thickness(10, 10, 0, 0), 
-                VerticalAlignment = VerticalAlignment.Top 
-            };
+            myLabel.Content = textBox.Text;
+        }
 
-            wrapPanel.Children.Add(newButton);
+        private void textBox2_TextChanged(object sender, TextChangedEventArgs e)
+        {
+            button.Content = textBox2.Text;
+        }
+
+        private void textBox_KeyDown(object sender, KeyEventArgs e)
+        {
+            if (e.Key == Key.Enter)
+            {
+                myLabel.Content = "ENTER";
+            }
+            else
+            { 
+                myLabel.Content = e.Key.ToString();
+            }
+        }
+
+        private void checkBox_Click(object sender, RoutedEventArgs e)
+        {
+            button.IsEnabled = (checkBox.IsChecked == true);
+        }
+
+        private void RadioButton_Click(object sender, RoutedEventArgs e)
+        {
+            if (radioButtonA.IsChecked == true)
+            {
+                myLabel.Content = "Option A";
+            }
+            else if (radioButtonB.IsChecked == true)
+            {
+                myLabel.Content = "Option B";
+            }
+            else if (radioButtonC.IsChecked == true)
+            {
+                myLabel.Content = "Option C";
+            }
+            else if (radioButtonD.IsChecked == true)
+            {
+                myLabel.Content = "Option D";
+            }
+        }
+
+        private void slider_ValueChanged(object sender, RoutedPropertyChangedEventArgs<double> e)
+        {
+            myLabel.Content = slider.Value.ToString("N2");
+       
         }
     }
 }

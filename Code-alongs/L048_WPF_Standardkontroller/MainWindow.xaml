@@ -9,13 +9,65 @@
     <Grid>
         <WrapPanel x:Name="wrapPanel" 
                    Orientation="Vertical"
-                    VerticalAlignment="Top">
-            
-            <Button Content="Create new button" 
-                    VerticalAlignment="Center" 
-                    Margin="10, 10, 0, 0" 
+                   HorizontalAlignment="Left"
+                   VerticalAlignment="Top">
+
+            <Label x:Name="myLabel"
+                   Content="Example Label"
+                   Margin="10, 10, 0, 0"/>
+
+            <Button x:Name="button"
+                    Content="Create" 
+                    HorizontalAlignment="Stretch"
+                    Width="100"
+                    Margin="10, 10, 10, 0"
                     Click="Button_Click"/>
-        
+
+            <TextBox x:Name="textBox" 
+                     Text="Sample text"
+                     Margin="10, 10, 10, 0"
+                     KeyDown="textBox_KeyDown"/>
+
+            <TextBox x:Name="textBox2" 
+                     Text="Create"
+                     Margin="10, 10, 10, 0"
+                     TextChanged="textBox2_TextChanged"/>
+
+            <CheckBox x:Name="checkBox"
+                      Content="Button Enabled" 
+                      Margin="10, 10, 10, 0"
+                      IsChecked="True"
+                      Click="checkBox_Click"
+                      />
+
+            <RadioButton x:Name="radioButtonA"
+                         Content="Option A"
+                         Margin="10, 10, 10, 0"
+                         Click="RadioButton_Click"/>
+            <RadioButton x:Name="radioButtonB"
+                         Content="Option B"
+                         Margin="10, 10, 10, 0"
+                         Click="RadioButton_Click"/>
+            <RadioButton x:Name="radioButtonC"
+                         Content="Option C"
+                         GroupName="Group2"
+                         Margin="10, 10, 10, 0"
+                         Click="RadioButton_Click"/>
+            <RadioButton x:Name="radioButtonD"
+                         Content="Option D"
+                         GroupName="Group2"
+                         Margin="10, 10, 10, 0"
+                         Click="RadioButton_Click"/>
+
+            <Slider x:Name="slider"
+                    Orientation="Horizontal"
+                    Minimum="-10"
+                    Maximum="10"
+                    TickFrequency="2"
+                    TickPlacement="Both"
+                    IsSnapToTickEnabled="False"
+                    Margin="10, 10, 10, 0"
+                    ValueChanged="slider_ValueChanged"/>
         </WrapPanel>
     </Grid>
 </Window>
