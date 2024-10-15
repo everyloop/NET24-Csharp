@@ -97,7 +97,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "L045_Deadlock", "Code-along
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "L046_SOLID", "Code-alongs\L046_SOLID\L046_SOLID.csproj", "{795040A1-0A77-4163-950C-5547F009C1AB}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "L047_Intro_WPF", "Code-alongs\L047_Intro_WPF\L047_Intro_WPF.csproj", "{B483D13F-7C7B-4400-90ED-A11402612D9B}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "L047_Intro_WPF", "Code-alongs\L047_Intro_WPF\L047_Intro_WPF.csproj", "{B483D13F-7C7B-4400-90ED-A11402612D9B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "L048_WPF_Standardkontroller", "Code-alongs\L048_WPF_Standardkontroller\L048_WPF_Standardkontroller.csproj", "{838BF02E-CBE6-42E4-98CE-A2D1BDB0CAE0}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -297,6 +299,10 @@ Global
 		{B483D13F-7C7B-4400-90ED-A11402612D9B}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{B483D13F-7C7B-4400-90ED-A11402612D9B}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{B483D13F-7C7B-4400-90ED-A11402612D9B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{838BF02E-CBE6-42E4-98CE-A2D1BDB0CAE0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{838BF02E-CBE6-42E4-98CE-A2D1BDB0CAE0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{838BF02E-CBE6-42E4-98CE-A2D1BDB0CAE0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{838BF02E-CBE6-42E4-98CE-A2D1BDB0CAE0}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
