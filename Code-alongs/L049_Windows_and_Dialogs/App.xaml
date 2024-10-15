@@ -1,0 +1,9 @@
+﻿<Application x:Class="L049_Windows_and_Dialogs.App"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:local="clr-namespace:L049_Windows_and_Dialogs"
+             StartupUri="Windows/Window1.xaml">
+    <Application.Resources>
+         
+    </Application.Resources>
+</Application>

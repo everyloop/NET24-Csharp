@@ -1,0 +1,33 @@
+﻿<Window x:Class="L049_Windows_and_Dialogs.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:L049_Windows_and_Dialogs"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <Grid>
+        <WrapPanel>
+            <Button x:Name="buttonShowMessageBox"
+                    Content="Show MessageBox"
+                    Margin="10 10 10 0"
+                    Click="buttonShowMessageBox_Click"/>
+
+            <Button x:Name="buttonOpenFile"
+                    Content="Open File"
+                    Margin="10 10 10 0"
+                    Click="buttonOpenFile_Click"/>
+
+            <Button x:Name="buttonSaveFile"
+                    Content="Save File"
+                    Margin="10 10 10 0"
+                    Click="buttonSaveFile_Click"/>
+
+            <Button x:Name="buttonPrint"
+                    Content="Print"
+                    Margin="10 10 10 0"
+                    Click="buttonPrint_Click"/>
+
+        </WrapPanel>
+    </Grid>
+</Window>
