@@ -19,7 +19,7 @@
 
 ## Dialogruta
 
-En dialogruta, engelska dialog box, är ett litet fönster i ett grafiskt användargränssnitt innehållande frågor,[1] inställningar eller information som användaren måste besvara, bekräfta eller aktivt avbryta/stänga. En dialogruta kan exempelvis innehålla ett felmeddelande.
+En dialogruta, engelska dialog box, är ett litet fönster i ett grafiskt användargränssnitt innehållande frågor, inställningar eller information som användaren måste besvara, bekräfta eller aktivt avbryta/stänga. En dialogruta kan exempelvis innehålla ett felmeddelande.
 
 Vi har kollat på några vanliga inbyggda dialogrutor:
 
