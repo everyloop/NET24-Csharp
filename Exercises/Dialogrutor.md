@@ -93,8 +93,8 @@ Om man ändrar en färg som man redan målat med i rutnätet så ska alla rutor 
 
 Grattis, du har gjort en pixel editor!
 
-***Tips:*** *Använd MouseDown- eller MouseUp-eventet istället för Click-eventet, då den skickar med en MouseButtonEventArgs som du kan använda för att kolla vilken knapp man klickade med.*
+***Tips:*** *Använd MouseDown- eller MouseUp-eventet istället för Click-eventet, då den skickar med en MouseButtonEventArgs som du kan använda för att kolla vilken knapp man klickade med. Du kan även kombinera MouseDown med MouseMove så man kan hålla nere musknappen och rita i flera rutor utan att behöva klicka på varje.*
 
-***Extra-uppgift:*** *Lägg till en meny där man kan ladda in och spara bilderna. Spara i binärt format där de första 24 ((8+8+8) * 3) byten är paletten, och de följande 64 (8x8) byten är palett-index för pixlarna.*
+***Extra-uppgift:*** *Lägg till en meny där man kan ladda in och spara bilderna. Spara i binärt format där de första 24 (RGB * 8) byten är paletten, och de följande 64 (8x8) byten är palett-index för pixlarna. Kom ihåg att Visual Studio har en inbyggd hexeditor om du vill kontrollera innehållet i filerna.*
 
 ***Extra-uppgift:*** *Lägg till så man även kan se den pixlade bilden i litet format (utan rutnät) vid sidan av rutnätet man målar i.*
