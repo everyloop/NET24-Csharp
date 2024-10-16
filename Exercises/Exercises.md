@@ -13,3 +13,4 @@
 [LINQ](https://github.com/everyloop/NET24-Csharp/blob/master/Exercises/LINQ.md)  
 [XAML](https://github.com/everyloop/NET24-Csharp/blob/master/Exercises/XAML.md)  
 [WPF Kontroller](https://github.com/everyloop/NET24-Csharp/blob/master/Exercises/WPF_Kontroller.md)  
+[Dialogrutor](https://github.com/everyloop/NET24-Csharp/blob/master/Exercises/Dialogrutor.md)  
