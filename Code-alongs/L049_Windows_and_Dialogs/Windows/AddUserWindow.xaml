@@ -5,7 +5,7 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:L049_Windows_and_Dialogs.Windows"
         mc:Ignorable="d"
-        Title="Add User" Height="180" Width="125" ResizeMode="NoResize" WindowStartupLocation="CenterScreen">
+        Title="Add User" Height="180" Width="135" WindowStyle="ToolWindow"  ResizeMode="NoResize" WindowStartupLocation="CenterScreen">
     <Grid>
         <StackPanel Margin="10">
             <Label>FirstName:</Label>

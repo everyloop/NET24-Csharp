@@ -1,0 +1,41 @@
+﻿<Window x:Class="L050_DataBinding.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:L050_DataBinding"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="150" Width="300">
+    <Grid>
+        <StackPanel>
+            
+            <!--<TextBox x:Name="textbox1" 
+                     TextChanged="textbox1_TextChanged"
+                     Margin="10"/>
+            
+            <TextBox x:Name="textbox2" 
+                     TextChanged="textbox2_TextChanged"
+                     Margin="10 0"/>-->
+
+            <TextBox x:Name="textbox1" 
+                     Text="{Binding 
+                        ElementName=textbox2, 
+                        Path=Text, 
+                        Mode=TwoWay, 
+                        UpdateSourceTrigger=PropertyChanged
+                     }"
+                     Margin="10"/>
+
+            <TextBox x:Name="textbox2" 
+                     Text="My Button"
+                     Margin="10 0"/>
+
+            <Button x:Name="button1" 
+                    Margin="10"
+                    Height=" 40"
+                    Content="{Binding ElementName=textbox2, Path=Text}"/>
+            <!-- Lägg till en knapp som använder databind för att knyta sin Content till textboxens text -->
+
+        </StackPanel>
+    </Grid>
+</Window>

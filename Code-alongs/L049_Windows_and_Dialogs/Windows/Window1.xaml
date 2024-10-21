@@ -13,14 +13,25 @@
         </Grid.ColumnDefinitions>
 
         <ListBox x:Name="listBox">
-            <ListBoxItem>Fredrik</ListBoxItem>
-            <ListBoxItem>Gustav</ListBoxItem>
+            <ListBoxItem>Fredrik Johansson</ListBoxItem>
+            <ListBoxItem>Gustav Svensson</ListBoxItem>
         </ListBox>
-        
-        <Button Content="Add User"
-                Grid.Column="1"
-                HorizontalAlignment="Center" 
-                VerticalAlignment="Center"
-                Click="Button_Click"/>
+
+        <StackPanel Grid.Column="1">
+            <Button Content="Add User"                    
+                    HorizontalAlignment="Center" 
+                    VerticalAlignment="Center"
+                    Click="Button_Click"/>
+
+            <Button Content="Add User"
+                    Margin="10"
+                    HorizontalAlignment="Center" 
+                    VerticalAlignment="Center"
+                    Click="Button_Click_1"/>
+
+            <TextBox x:Name="myTextBox"
+                     HorizontalAlignment="Center"
+                     Width="200"/>
+        </StackPanel>
     </Grid>
 </Window>

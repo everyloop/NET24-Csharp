@@ -1,16 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-using System.Windows;
-using System.Windows.Controls;
-using System.Windows.Data;
-using System.Windows.Documents;
-using System.Windows.Input;
-using System.Windows.Media;
-using System.Windows.Media.Imaging;
-using System.Windows.Shapes;
+﻿using System.Windows;
 
 namespace L049_Windows_and_Dialogs.Windows
 {
@@ -19,8 +7,20 @@ namespace L049_Windows_and_Dialogs.Windows
     /// </summary>
     public partial class AddUserWindow : Window
     {
-        public string FirstName { get => textboxFirstName.Text; }
-        public string LastName {
+        public string FirstName
+        {
+            get
+            {
+                return textboxFirstName.Text;
+            }
+            set
+            {
+                textboxFirstName.Text = value;
+            }
+        }
+
+        public string LastName
+        {
             get
             {
                 return textboxLastName.Text;
@@ -48,8 +48,8 @@ namespace L049_Windows_and_Dialogs.Windows
             Close();
         }
 
-        private string Greet(string name) => $"Hi, {name}!";
-        private void GreetPrint(string name) => Console.WriteLine($"Hi, {name}!");
+        //private string Greet(string name) => $"Hi, {name}!";
+        //private void GreetPrint(string name) => Console.WriteLine($"Hi, {name}!");
 
     }
 }

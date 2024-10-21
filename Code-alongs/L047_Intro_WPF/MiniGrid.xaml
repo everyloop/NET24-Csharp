@@ -18,6 +18,6 @@
             <RowDefinition Height="*" />
         </Grid.RowDefinitions>
 
-        <Button>1</Button>
+        <Button x:Name="testButton">1</Button>
     </Grid>
 </UserControl>

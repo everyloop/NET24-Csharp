@@ -1,4 +1,5 @@
 ﻿using Microsoft.Win32;
+using System.Diagnostics;
 using System.Text;
 using System.Windows;
 using System.Windows.Controls;
@@ -51,6 +52,8 @@ namespace L049_Windows_and_Dialogs
 
         private void buttonSaveFile_Click(object sender, RoutedEventArgs e)
         {
+            Debug.WriteLine("Open save file dialog!");
+
             var dialog = new SaveFileDialog();
 
             var result = dialog.ShowDialog();

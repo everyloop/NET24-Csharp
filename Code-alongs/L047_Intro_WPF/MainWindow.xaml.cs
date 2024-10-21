@@ -31,9 +31,12 @@ namespace L047_Intro_WPF
 
             //MessageBox.Show($"Du klickade på knapp '{button.Content}'");
 
-            button.HorizontalAlignment = button.HorizontalAlignment == HorizontalAlignment.Right
-                ? HorizontalAlignment.Left
-                : HorizontalAlignment.Right;
+            //button.HorizontalAlignment = button.HorizontalAlignment == HorizontalAlignment.Right
+            //    ? HorizontalAlignment.Left
+            //    : HorizontalAlignment.Right;
+
+            int currentColumn = Grid.GetColumn(button);
+            Grid.SetColumn(button, currentColumn == 1 ? 2 : 1);
 
             Button newButton = new Button() { Content = counter++, Width = 50, Margin = new Thickness(0, 10, 10, 10) };
             myStackPanel.Children.Add(newButton);

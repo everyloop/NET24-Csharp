@@ -26,9 +26,14 @@ namespace L049_Windows_and_Dialogs.Windows
 
         private void Button_Click(object sender, RoutedEventArgs e)
         {
+            //await Task.Delay(5000);
+
+            //Thread.Sleep(5000);
+
             AddUserWindow addUserWindow = new();
 
-            addUserWindow.LastName = "Hejsan";
+            addUserWindow.FirstName = "";
+            addUserWindow.LastName = "";
 
             var result = addUserWindow.ShowDialog();
 
@@ -36,6 +41,13 @@ namespace L049_Windows_and_Dialogs.Windows
             {
                 listBox.Items.Add($"{addUserWindow.FirstName} {addUserWindow.LastName}");
             }
+        }
+
+        private void Button_Click_1(object sender, RoutedEventArgs e)
+        {
+            NonDialogWindow window = new(myTextBox);
+
+            window.Show();
         }
     }
 }

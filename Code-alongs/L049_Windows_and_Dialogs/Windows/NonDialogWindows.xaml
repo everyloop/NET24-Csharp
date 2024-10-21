@@ -1,0 +1,24 @@
+﻿<Window x:Class="L049_Windows_and_Dialogs.Windows.NonDialogWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:L049_Windows_and_Dialogs.Windows"
+        mc:Ignorable="d"
+        Title="NonDialogWindows" Height="200" Width="600">
+    <Grid>
+        <StackPanel>
+            <Label x:Name="myLabel"
+                   Content="Hello World!" 
+                   VerticalAlignment="Center"
+                   HorizontalAlignment="Center"
+                   FontSize="40"/>
+            <Button x:Name="myButton" 
+                    Content="Update"
+                    FontSize="40"
+                    HorizontalAlignment="Center"
+                    Click="myButton_Click"/>
+        </StackPanel>
+
+    </Grid>
+</Window>
