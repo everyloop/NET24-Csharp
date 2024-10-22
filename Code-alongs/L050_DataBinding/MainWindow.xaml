@@ -3,10 +3,15 @@
         xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
         xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
-        xmlns:local="clr-namespace:L050_DataBinding"
+        xmlns:local="clr-namespace:L050_DataBinding" xmlns:converters="clr-namespace:L050_DataBinding.Converters"
         mc:Ignorable="d"
-        Title="MainWindow" Height="150" Width="300">
-    <Grid>
+        Title="MainWindow" Height="250" Width="300">
+    <Grid x:Name="myGrid">
+        <Grid.Resources>
+            <BooleanToVisibilityConverter x:Key="boolToVisibilityConverter" />
+            <converters:DoubleToSolidBrushConverter x:Key="myConverter" />
+            <SolidColorBrush Color="#FFFF00" x:Key="myColor" />
+        </Grid.Resources>
         <StackPanel>
             
             <!--<TextBox x:Name="textbox1" 
@@ -18,6 +23,7 @@
                      Margin="10 0"/>-->
 
             <TextBox x:Name="textbox1" 
+                    Background="{StaticResource myColor}"
                      Text="{Binding 
                         ElementName=textbox2, 
                         Path=Text, 
@@ -27,13 +33,22 @@
                      Margin="10"/>
 
             <TextBox x:Name="textbox2" 
+                    Background="{StaticResource myColor}"
                      Text="My Button"
                      Margin="10 0"/>
 
-            <Button x:Name="button1" 
+            <Button x:Name="button1"
+                    Background="{Binding ElementName=mySlider, Path=Value, Converter={StaticResource myConverter}}"
                     Margin="10"
-                    Height=" 40"
-                    Content="{Binding ElementName=textbox2, Path=Text}"/>
+                    Height="40"
+                    Visibility="{Binding ElementName=myCheckBox, Path=IsChecked, Converter={StaticResource boolToVisibilityConverter}}"
+                    Width="{Binding ElementName=mySlider, Path=Value}"
+                    Content="{Binding ElementName=mySlider, Path=Value}">
+            </Button>
+
+            <Slider x:Name="mySlider" Minimum="0" Maximum="255" Margin="10" />
+
+            <CheckBox x:Name="myCheckBox" Content="Show Button" Margin="10" IsChecked="True" />
             <!-- Lägg till en knapp som använder databind för att knyta sin Content till textboxens text -->
 
         </StackPanel>

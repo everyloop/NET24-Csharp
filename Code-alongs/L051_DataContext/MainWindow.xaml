@@ -1,0 +1,34 @@
+﻿<Window x:Class="L051_DataContext.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:L051_DataContext"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="150" Width="300">
+    <Grid>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="*" />
+            <ColumnDefinition Width="*" />
+        </Grid.ColumnDefinitions>
+        <StackPanel>
+            <TextBox Margin="10"
+                     x:Name="myTextbox"
+                     />
+
+                     <!--Text="{Binding Path=Name, Mode=TwoWay}"-->
+            <StackPanel DataContext="{Binding Path=Moons[0]}">
+                <Button Margin="10"
+                     Content="{Binding Path=Name}"
+                     />
+            </StackPanel>
+
+            <Button Content="{Binding Path=Name}" Margin="10 0" Click="Button_Click" />
+        </StackPanel>
+
+        <ListBox Grid.Column="1"
+                 ItemsSource="{Binding Path=Moons}"
+                 DisplayMemberPath="Name"
+                 Margin="10" />
+    </Grid>
+</Window>
