@@ -27,7 +27,7 @@
         </StackPanel>
 
         <ListBox Grid.Column="1"
-                 ItemsSource="{Binding Path=Moons}"
+                 ItemsSource="{Binding Moons}"
                  DisplayMemberPath="Name"
                  Margin="10" />
     </Grid>

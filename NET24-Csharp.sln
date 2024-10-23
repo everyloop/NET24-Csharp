@@ -103,9 +103,11 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "L048_WPF_Standardkontroller
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "L049_Windows_and_Dialogs", "Code-alongs\L049_Windows_and_Dialogs\L049_Windows_and_Dialogs.csproj", "{7362C191-E177-48F3-90F6-3B9DB0359E2E}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "L050_DataBinding", "Code-alongs\L050_DataBinding\L050_DataBinding.csproj", "{95473582-155F-4586-82B2-926C64BA41F8}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "L050_DataBinding", "Code-alongs\L050_DataBinding\L050_DataBinding.csproj", "{95473582-155F-4586-82B2-926C64BA41F8}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "L051_DataContext", "Code-alongs\L051_DataContext\L051_DataContext.csproj", "{464668C0-80F9-4668-A517-142B22FB4EF7}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "L051_DataContext", "Code-alongs\L051_DataContext\L051_DataContext.csproj", "{464668C0-80F9-4668-A517-142B22FB4EF7}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "L052_Labb3_Code-along", "Code-alongs\L052_Labb3_Code-along\L052_Labb3_Code-along.csproj", "{8E786D5E-B954-419A-9C2D-53461DD33792}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -321,6 +323,10 @@ Global
 		{464668C0-80F9-4668-A517-142B22FB4EF7}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{464668C0-80F9-4668-A517-142B22FB4EF7}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{464668C0-80F9-4668-A517-142B22FB4EF7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8E786D5E-B954-419A-9C2D-53461DD33792}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8E786D5E-B954-419A-9C2D-53461DD33792}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8E786D5E-B954-419A-9C2D-53461DD33792}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8E786D5E-B954-419A-9C2D-53461DD33792}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
