@@ -24,7 +24,9 @@
 
                 <MenuItem Header="_Add Question" />
                 <MenuItem Header="_Remove question" />
-            
+                <MenuItem Header="Update Button"
+                          InputGestureText="Ctrl+U"
+                          Command="{Binding PlayerViewModel.UpdateButtonCommand}" />
             </MenuItem>
         </Menu> 
     </Grid>

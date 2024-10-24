@@ -38,17 +38,14 @@ namespace L052_Labb3_Code_along.ViewModel
             //timer.Start();
 
             UpdateButtonCommand = new DelegateCommand(UpdateButton, CanUpdateButton);
-            AddQuestionCommand = new DelegateCommand(AddQuestion, CanAddQuestion);
         }
 
-        private bool CanUpdateButton(object? arg)
-        {
-            return true;
-        }
-
+        private bool CanUpdateButton(object? arg) => TestData.Length < 20;
+        
         private void UpdateButton(object obj)
         {
             TestData += "x";
+            UpdateButtonCommand.RaiseCanExecuteChanged();
         }
 
         private void Timer_Tick(object? sender, EventArgs e)
