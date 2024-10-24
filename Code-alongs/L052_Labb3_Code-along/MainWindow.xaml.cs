@@ -12,10 +12,10 @@ namespace L052_Labb3_Code_along
         public MainWindow()
         {
             InitializeComponent();
+            DataContext = new MainWindowViewModel();
 
-            var pack = new QuestionPackViewModel(new QuestionPack("My Question Pack"));
 
-            pack.TimeLimitInSeconds = 5;
+
         }
     }
 }
