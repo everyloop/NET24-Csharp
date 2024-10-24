@@ -12,7 +12,8 @@
                 VerticalAlignment="Center"
                 HorizontalAlignment="Center"
                 Content="{Binding TestData}"
-                Margin="10" 
+                Margin="10"
+                Command="{Binding UpdateButtonCommand}"
                 />
     </Grid>
 </UserControl>

@@ -1,4 +1,5 @@
-﻿using System;
+﻿using L052_Labb3_Code_along.Command;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -23,14 +24,31 @@ namespace L052_Labb3_Code_along.ViewModel
             }
         }
 
+        public DelegateCommand UpdateButtonCommand { get; }
+
         public PlayerViewModel(MainWindowViewModel? mainWindowViewModel)
         {
             this.mainWindowViewModel = mainWindowViewModel;
 
+            TestData = "Start value: ";
+
             timer = new DispatcherTimer();
             timer.Interval = TimeSpan.FromSeconds(1);
             timer.Tick += Timer_Tick;
-            timer.Start();
+            //timer.Start();
+
+            UpdateButtonCommand = new DelegateCommand(UpdateButton, CanUpdateButton);
+            AddQuestionCommand = new DelegateCommand(AddQuestion, CanAddQuestion);
+        }
+
+        private bool CanUpdateButton(object? arg)
+        {
+            return true;
+        }
+
+        private void UpdateButton(object obj)
+        {
+            TestData += "x";
         }
 
         private void Timer_Tick(object? sender, EventArgs e)
