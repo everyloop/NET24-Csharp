@@ -107,7 +107,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "L050_DataBinding", "Code-al
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "L051_DataContext", "Code-alongs\L051_DataContext\L051_DataContext.csproj", "{464668C0-80F9-4668-A517-142B22FB4EF7}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "L052_Labb3_Code-along", "Code-alongs\L052_Labb3_Code-along\L052_Labb3_Code-along.csproj", "{8E786D5E-B954-419A-9C2D-53461DD33792}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "L052_Labb3_Code-along", "Code-alongs\L052_Labb3_Code-along\L052_Labb3_Code-along.csproj", "{8E786D5E-B954-419A-9C2D-53461DD33792}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "L053_JSON", "Code-alongs\L053_JSON\L053_JSON.csproj", "{A2AD4772-B317-43C0-863C-9A29614A9CBF}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -327,6 +329,10 @@ Global
 		{8E786D5E-B954-419A-9C2D-53461DD33792}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{8E786D5E-B954-419A-9C2D-53461DD33792}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{8E786D5E-B954-419A-9C2D-53461DD33792}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A2AD4772-B317-43C0-863C-9A29614A9CBF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A2AD4772-B317-43C0-863C-9A29614A9CBF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A2AD4772-B317-43C0-863C-9A29614A9CBF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A2AD4772-B317-43C0-863C-9A29614A9CBF}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
