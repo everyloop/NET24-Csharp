@@ -32,6 +32,7 @@ Här hittar du code-along projekt från lektioner, lektionsanteckningar, [ordlis
 | [Okt 14][Okt14] | Intro WPF & XAML                                      |
 | [Okt 15][Okt15] | WPF Standardkontroller, Dialog boxes                  |
 | [Okt 21][Okt21] | MVVM, Data binding, DataContext, Converters           |
+| [Okt 28][Okt28] | JSON Serialization/Deserialization                    |
 
 [Aug26]: https://github.com/everyloop/NET24-Csharp/blob/master/Lecture-notes/Aug26.md
 [Aug28]: https://github.com/everyloop/NET24-Csharp/blob/master/Lecture-notes/Aug28.md
@@ -57,3 +58,4 @@ Här hittar du code-along projekt från lektioner, lektionsanteckningar, [ordlis
 [Okt14]: https://github.com/everyloop/NET24-Csharp/blob/master/Lecture-notes/Okt14.md
 [Okt15]: https://github.com/everyloop/NET24-Csharp/blob/master/Lecture-notes/Okt15.md
 [Okt21]: https://github.com/everyloop/NET24-Csharp/blob/master/Lecture-notes/Okt21.md
+[Okt28]: https://github.com/everyloop/NET24-Csharp/blob/master/Lecture-notes/Okt28.md
